@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Staff-level Research Scientist, Pacific Northwest National Laboratory 
+subtitle: Staff-level Research Scientist, Pacific Northwest National Laboratory 
 
 profile:
   align: right
@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Pacific Northwest National Laboratory </p>
     <p>902 Battelle Blvd, PO Box 999 </p>
-    <p>YRichland, WA 99352</p>
+    <p>Richland, WA 99352</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
