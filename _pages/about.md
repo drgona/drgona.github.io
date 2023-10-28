@@ -9,8 +9,7 @@ profile:
   image: Drgona4WEB.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Pacific Northwest National Laboratory </p>
-    <p>902 Battelle Blvd, PO Box 999 </p>
+    <p>902 Battelle Blvd </p>
     <p>Richland, WA 99352</p>
 
 news: true  # includes a list of news items
