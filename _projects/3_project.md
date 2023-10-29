@@ -64,7 +64,7 @@ The main advantage of this offline DPP-based solution compared to classical opti
 is faster online evaluation, often obtaining orders of magnitude speedups.
 
 
-![Rosenbrock](assets/img/Rosenbrock_sensitivity.gif)
+![Rosenbrock](./assets/img/Rosenbrock_sensitivity.gif)
 
 
 For more information see the [open-source examples](https://github.com/pnnl/neuromancer/tree/master/examples/parametric_programming).
@@ -72,7 +72,7 @@ For more information see the [open-source examples](https://github.com/pnnl/neur
 
 #### Learning SciML surrogates for dynamical systems
 
-[System identification](https://en.wikipedia.org/wiki/System_identification) is using statistical methods 
+[**System identification**](https://en.wikipedia.org/wiki/System_identification) is using statistical methods 
 to construct mathematical models of dynamical systems given the measured observations of the system behavior.
 In the Neuromancer library, we are primarily interested in differentiable system 
 ID methods that can incorporate prior physical knowledge into their architectures and loss functions. Examples include
@@ -86,11 +86,14 @@ Neuromancer currently supports the following system identification methods:
 + [Neural state space models (NSSMs)](https://arxiv.org/abs/2011.13497)
 + [Universal differential equations (UDEs)](https://arxiv.org/abs/2001.04385)
 
+![NODE.](./assets/img/NODE.png)  
+
+
 For more information see the [open-source examples](https://github.com/pnnl/neuromancer/tree/master/examples/ODEs)
 
 #### Learning to control with differentiable programming
 
-[Differentiable predictive control (DPC) method](https://arxiv.org/abs/2004.11184) represents a 
+[**Differentiable predictive control (DPC)** method](https://arxiv.org/abs/2004.11184) represents a 
 flagship capability of the Neuromancer library.
 
 DPC allows us to learn control policy parameters directly by
@@ -109,9 +112,7 @@ to solve the parametric optimal control problem by computing the sensitivities
 of objective functions and constraints to changing problem parameters such as initial conditions, 
 boundary conditions, and parametric control tasks such as time-varying reference tracking.
 
-![DPC_abstract.](https://github.com/pnnl/neuromancer/blob/master/examples/control/figs/DPC_abstract.png)  
-*Conceptual methodology. Simulation of the differentiable closed-loop system dynamics 
-in the forward pass is followed by backward pass computing direct policy gradients for policy optimization*
+![DPC_abstract.](./assets/img/DPC_abstract.png)  
 
 
 For more information see the [open-source examples](https://github.com/pnnl/neuromancer/tree/master/examples/control)
