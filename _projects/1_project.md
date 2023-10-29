@@ -10,11 +10,13 @@ related_publications: DRGONA202114, drgona2022learning, DRGONA2021110992, DRGONA
 ---
 
 
-### Abstract 
+## Abstract 
 At PNNL, I have led the development and demonstration of 
 [differentiable predictive control (DPC)](https://www.sciencedirect.com/science/article/pii/S0959152422000981), a state-of-the-art advanced control method,
 that enables rapid design and scalable deployment of predictive controls for
-building energy systems. DPC provides benefits of model predictive control (MPC) at costs and complexity
+building energy systems. DPC provides benefits of 
+[model predictive control](https://en.wikipedia.org/wiki/Model_predictive_control) 
+(MPC) at costs and complexity
 of traditional controls allowing for improved control and predictions which result in reduced energy use,
 demand flexibility and improved air quality. 
 Under this project, my PNNL team collaborates with four industry partners to integrate
@@ -39,7 +41,7 @@ deployment enabling software will significantly advance BTO’s goals to reduce 
 </div>
 
 
-### Open-source Software 
+## Open-source Software 
 
 The technology developed under this project is being open-sourced 
 as part of the Neuromancer Scientific Machine Learning (SciML) library developed by our team at PNNL.
@@ -47,14 +49,14 @@ as part of the Neuromancer Scientific Machine Learning (SciML) library developed
 [![Readme Card](https://github.com/pnnl/neuromancer.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/pnnl/neuromancer)
 
 
-### Acknowledgements
+## Acknowledgements
 This project is supported through the U.S. Department of Energy (DOE),
 Energy Efficiency and Renewable Energy, Building Technologies Office (BTO) under the 
 “Advancing Market-Ready Building Energy Management by Cost-Effective Differentiable Predictive Control” projects. 
  PNNL is a multi-program national laboratory operated for the U.S. Department of Energy (DOE) 
 by Battelle Memorial Institute under Contract No. DE-AC05-76RL0-1830.
 
-### PNNL Team
+## PNNL Team
 - [Draguna Vrabie](https://www.pnnl.gov/people/draguna-vrabie-phd) (PI)
 - Ján Drgoňa (Co-PI)
 - [Aaron Tuor](https://www.linkedin.com/in/aarontuor/) (former Co-PI)
@@ -70,7 +72,7 @@ by Battelle Memorial Institute under Contract No. DE-AC05-76RL0-1830.
 - [Harry Qiang](https://www.linkedin.com/in/harry-qiang-23417151/) (WWU student)
 
 
-### Industrial Partners
+## Industrial Partners
 - [Community Energy Labs](https://communityenergylabs.com/)
 - [Verdigris](https://verdigris.co/)
 - [Elexity](https://www.elexity.io/)
