@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: Decision and Control of Complex Systems 
+title: Decision and Control of Complex Systems 
+description: Developing scientific machine learning methods for modeling and control of complex systems.
 img: assets/img/3.jpg
 importance: 2
 category: work
@@ -33,12 +33,19 @@ Pacific Northwest National Laboratory; the University of California, Santa Barba
 Arizona State University. 
 
 
+### Safe Data-driven Control
+
+Under this project our team has developed a range of provably safe data-driven control methods
+based on differentiable programming paradigm. 
+
+
+
 ### Open-source Software 
 
 The technology developed under this project is being open-sourced 
 as part of the Neuromancer Scientific Machine Learning (SciML) library developed by our team at PNNL.
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/pnnl/neuromancer)
+[![Readme Card](https://github.com/pnnl/neuromancer.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/pnnl/neuromancer)
 
 
 ### PNNL Team

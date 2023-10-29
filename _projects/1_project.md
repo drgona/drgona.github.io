@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Market-Ready Building Energy Management via Differentiable Predictive Control
+title: Building Energy Management via Differentiable Predictive Control
 description: Developing differentiable predictive control (DPC) as a market-ready technology for energy-efficient building control.
 img: assets/img/DPC_BTO_project.PNG
 importance: 1
@@ -44,7 +44,7 @@ deployment enabling software will significantly advance BTO’s goals to reduce 
 The technology developed under this project is being open-sourced 
 as part of the Neuromancer Scientific Machine Learning (SciML) library developed by our team at PNNL.
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/pnnl/neuromancer)
+[![Readme Card](https://github.com/pnnl/neuromancer.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/pnnl/neuromancer)
 
 
 ### Acknowledgements
