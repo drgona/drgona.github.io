@@ -1,100 +1,43 @@
 ---
 layout: page
-title: Decision and Control of Complex Systems 
-description: Developing scientific machine learning methods for modeling and control of complex systems.
-img: assets/img/publication_preview/NeurIPS_DMM.PNG
-importance: 3
+title: Building Energy Management via Differentiable Control
+description: Developing differentiable predictive control (DPC) as a market-ready technology for energy-efficient building control.
+img: assets/img/DPC_BTO_project.PNG
+importance: 2
 category: work
-related_publications: 9993146, 9992386, DRGONA2022121, NEURIPS2021_c9dd73f5, AutoNF_2023, ns2023extreme, wang2023semisupervised
+related_publications: DRGONA202114, drgona2022learning, DRGONA2021110992, DRGONA202280,
+ NAGY2023110435, DONG2022109195, 10155901, 10156081, das2022machine
 ---
 
 
-
 ## Abstract 
-The objective of this project is to develop the mathematical foundations and framework for
-controlling and optimizing complex systems by developing novel 
-[scientific machine learning](https://sites.brown.edu/bergen-lab/research/what-is-sciml/) (SciML) methods. 
-In US Department of Energy (DOE) mission areas, the analyses, simulations, and
-optimizations of these complex systems have been the objectives of numerous past research efforts.
-In this project, we recognize the fundamental challenge of complex system modeling and control,
-which is that high-fidelity models can be prohibitively expensive to construct. 
-This limitation is not necessarily due to the lack of fundamental understanding of the underlying natural
-phenomena but due to practical constraints such as the difficulties in instrumenting the complex
-systems to collect relevant data, the need to resolve inherent uncertainties in the models (e.g., due
-to unmodeled physics), and the loss of observability due to excessive exogenous noises. The general
-applicability of the current solutions is hampered by the ad hoc nature of the approaches and the
-lack of a coherent theoretical framework.
-The new SciML methods developed under this project are adressing key challenges of complex systems: 
-model construction, uncertainty quantification, decision and control,
-and continual learning. 
-
-The research in this project is conducted by researchers from Oak Ridge National Laboratory; 
-Pacific Northwest National Laboratory; the University of California, Santa Barbara; and
-Arizona State University. 
-
-
-## Safe Data-driven Control
-
-Under this project our team has developed a range of provably safe data-driven control methods
-based on differentiable programming paradigm. 
-The developed methods can be used in conjunction with any learning-based controller, 
-such as deep reinforcement learning control policy.
-In our case we have focused on the extensions of promissing offline model-based 
-policy optimization approach called 
-[differentiable predictive control (DPC)](https://www.sciencedirect.com/science/article/pii/S0959152422000981) (DPC).
-
-DPC is a modern SciML method that bring the benefits of both worlds.
-It combines model-based interpretability, constraints handling, and performance guarantees of 
-[model predictive control](https://en.wikipedia.org/wiki/Model_predictive_control) (MPC)
-with [deep reinforcement learning](https://en.wikipedia.org/wiki/Deep_reinforcement_learning) 
-(RL) policy optimization.
-This synnergy allows DPC to learn control policy parameters directly by
-backpropagating MPC objective function and constraints through the differentiable
- model of a dynamical system. Instances of a differentiable model can include 
-a family of physics-based and data-driven 
-differential equations models, such as  [neural ODEs](https://arxiv.org/abs/1806.07366), 
-[universal differential equations (UDEs)](https://arxiv.org/abs/2001.04385), 
-or [neural state space models (SSMs)](https://ieeexplore.ieee.org/abstract/document/9482930).
-
-
-
-#### Highlighted Methods
-
-[**Neural Lyapunov Differentiable Predictive Control**](https://ieeexplore.ieee.org/abstract/document/9992386) 
-combines the principles of Lyapunov functions, model predictive control, 
-reinforcement learning, and differentiable programming to offer a 
-systematic way for offline model-based policy 
-optimization with guaranteed stability.
+At PNNL, I have led the development and demonstration of 
+[differentiable predictive control (DPC)](https://www.sciencedirect.com/science/article/pii/S0959152422000981), a state-of-the-art advanced control method,
+that enables rapid design and scalable deployment of predictive controls for
+building energy systems. DPC provides benefits of 
+[model predictive control](https://en.wikipedia.org/wiki/Model_predictive_control) 
+(MPC) at costs and complexity
+of traditional controls allowing for improved control and predictions which result in reduced energy use,
+demand flexibility and improved air quality. 
+Under this project, my PNNL team collaborates with four industry partners to integrate
+DPC with existing market-available control products to develop affordable, high-performance, and scalable
+predictive control solutions that can be deployed in new and existing buildings to reduce energy, peak demand,
+greenhouse gas emissions, and improve occupant comfort. The project will demonstrate the DPC
+technology’s flexibility in design and deployment to industry use cases and underlying building energy
+systems without substantial, bespoke rework. Performance and affordability of DPC supervisory control
+solutions will be evaluated in more than four occupied, small, medium, and large commercial buildings
+situated in various climate zones. Applied research will be directed by industry objectives to bring to the
+market this new capability, and enable its broad deployment. The resulting buildings control technologies and
+deployment enabling software will significantly advance BTO’s goals to reduce emissions in US buildings.
 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Lyap_DPC_method.png" title="DPC Lyap" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/DPC_BTO_project.PNG" title="DPC BTO" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Conceptual methodology of the neural Lyapunov differentiable predictive control. 
-Simulation of the differentiable constrained closed-loop system dynamics with neural Lyapunov function 
-in the forward pass is followed by backward pass computing direct policy gradients for policy optimization.
-</div>
-
-
-[**Differentiable Predictive Control with Safety Guarantees: A Control Barrier Function Approach**](https://ieeexplore.ieee.org/abstract/document/9993146) 
-combines the principles of control barrier functions, model predictive control, 
-reinforcement learning, and differentiable programming to offer a 
-systematic way for offline model-based policy 
-optimization with guaranteed constraints satisfaction via projections onto the feasible set.
-
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Barrier_DPC_method.png" title="DPC barrier" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Conceptual methodology of the neural Lyapunov differentiable predictive control. 
-Simulation of the differentiable constrained closed-loop system dynamics with neural Lyapunov function 
-in the forward pass is followed by backward pass computing direct policy gradients for policy optimization.
+    Overview of Differentiable Predictive Control (DPC) methodology for real-world building control.
 </div>
 
 
@@ -106,18 +49,31 @@ as part of the Neuromancer Scientific Machine Learning (SciML) library developed
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=pnnl&repo=neuromancer)](https://github.com/pnnl/neuromancer)
 
 
-## PNNL Team
-- [Mahantesh Halappanavar](https://www.pnnl.gov/people/mahantesh-halappanavar) (PI)
-- **Ján Drgoňa** (Task lead)
-- [Wenceslao Shaw Cortez](https://shawcortez.wordpress.com/)
-- [Sayak Mukherjee](https://energyenvironment.pnnl.gov/staff/staff_info.asp?staff_num=3815)
-- [Sam Chatterjee](https://www.pnnl.gov/people/sam-chatterjee)
-- [Vikas Chandan](https://www.linkedin.com/in/vikas-chandan-a0624221/)
-
-
 ## Acknowledgements
-This project is supported through the U.S. Department of Energy (DOE), 
-through the Office of Advanced Scientific Computing Research's 
-“Data-Driven Decision Control for Complex Systems (DnC2S)” project.
-PNNL is a multi-program national laboratory operated for the U.S. DOE
+This project is supported through the U.S. Department of Energy (DOE),
+Energy Efficiency and Renewable Energy, Building Technologies Office (BTO) under the 
+“Advancing Market-Ready Building Energy Management by Cost-Effective Differentiable Predictive Control” projects. 
+ PNNL is a multi-program national laboratory operated for the U.S. Department of Energy (DOE) 
 by Battelle Memorial Institute under Contract No. DE-AC05-76RL0-1830.
+
+## PNNL Team
+- [Draguna Vrabie](https://www.pnnl.gov/people/draguna-vrabie-phd) (PI)
+- **Ján Drgoňa** (Co-PI)
+- [Aaron Tuor](https://www.linkedin.com/in/aarontuor/) (former Co-PI)
+- [James Koch](https://www.linkedin.com/in/james-koch-5285a87a/)
+- [Madelyn Shapiro](https://www.linkedin.com/in/m-shapiro/)
+- [Wenceslao Shaw Cortez](https://shawcortez.wordpress.com/)
+- [Soumya Vasisht](https://www.linkedin.com/in/m-shapiro/)
+- [Rahul Birmiwal](https://www.linkedin.com/in/rahul-birmiwal009/)
+- [Himanshu Sharma](https://www.linkedin.com/in/hsharma2328/)
+- [Brian Hutchinson](https://www.linkedin.com/in/brian-hutchinson-7a8b0857/) (WWU Professor)
+- [Seth Briney](https://www.linkedin.com/in/sethlbriney/) (WWU student)
+- [Diego Llanes](https://www.linkedin.com/in/diego-llanes-ai/) (WWU student)
+- [Harry Qiang](https://www.linkedin.com/in/harry-qiang-23417151/) (WWU student)
+
+
+## Industrial Partners
+- [Community Energy Labs](https://communityenergylabs.com/)
+- [Verdigris](https://verdigris.co/)
+- [Elexity](https://www.elexity.io/)
+- [Delta Controls](https://deltacontrols.com/)
