@@ -1,9 +1,7 @@
-github_users:
-  - drgona
-  - pnnl
-
 github_repos:
   - pnnl/neuromancer
   - pnnl/deps_arXiv2020
   - drgona/BeSim
 
+github_users:
+  - drgona
