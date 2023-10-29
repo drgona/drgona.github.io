@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Staff-level Research Scientist, [Pacific Northwest National Laboratory](https://www.pnnl.gov/)
+subtitle: Staff-level Research Scientist, Pacific Northwest National Laboratory
 
 profile:
   align: right

@@ -1,81 +1,57 @@
 ---
 layout: page
 title: project 2
-description: a project with a background image and giscus comments
+description: Decision and Control of Complex Systems 
 img: assets/img/3.jpg
 importance: 2
 category: work
-giscus_comments: true
+related_publications: 
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Abstract 
+The objective of this project is to develop the mathematical foundations and framework for
+controlling and optimizing complex systems by developing novel 
+[scientific machine learning](https://sites.brown.edu/bergen-lab/research/what-is-sciml/) (SciML) methods. 
+In US Department of Energy (DOE) mission areas, the analyses, simulations, and
+optimizations of these complex systems have been the objectives of numerous past research efforts.
+In this project, we recognize the fundamental challenge of complex system modeling and control,
+which is that high-fidelity models can be prohibitively expensive to construct. 
+This limitation is not necessarily due to the lack of fundamental understanding of the underlying natural
+phenomena but due to practical constraints such as the difficulties in instrumenting the complex
+systems to collect relevant data, the need to resolve inherent uncertainties in the models (e.g., due
+to unmodeled physics), and the loss of observability due to excessive exogenous noises. The general
+applicability of the current solutions is hampered by the ad hoc nature of the approaches and the
+lack of a coherent theoretical framework.
+The new SciML methods developed under this project are adressing key challenges of complex systems: 
+model construction, uncertainty quantification, decision and control,
+and continual learning. 
+
+The research in this project is conducted by researchers from Oak Ridge National Laboratory; 
+Pacific Northwest National Laboratory; the University of California, Santa Barbara; and
+Arizona State University. 
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Open-source Software 
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+The technology developed under this project is being open-sourced 
+as part of the Neuromancer Scientific Machine Learning (SciML) library developed by our team at PNNL.
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/pnnl/neuromancer)
+
+
+### PNNL Team
+- [Mahantesh Halappanavar](https://www.pnnl.gov/people/mahantesh-halappanavar) (PI)
+- Ján Drgoňa (Task lead)
+- [Wenceslao Shaw Cortez](https://shawcortez.wordpress.com/)
+- [Sayak Mukherjee](https://energyenvironment.pnnl.gov/staff/staff_info.asp?staff_num=3815)
+- [Sam Chatterjee](https://www.pnnl.gov/people/sam-chatterjee)
+
+
+### Acknowledgements
+This project is supported through the U.S. Department of Energy (DOE), 
+through the Office of Advanced Scientific Computing Research's 
+“Data-Driven Decision Control for Complex Systems (DnC2S)” project.
+PNNL is a multi-program national laboratory operated for the U.S. DOE
+by Battelle Memorial Institute under Contract No. DE-AC05-76RL0-1830.

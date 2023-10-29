@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Advancing Market-Ready Building Energy Management by Cost-Effective Differentiable Predictive Control
+title: Market-Ready Building Energy Management via Differentiable Predictive Control
 description: Developing differentiable predictive control (DPC) as a market-ready technology for energy-efficient building control.
 img: assets/img/DPC_BTO_project.PNG
 importance: 1
 category: work
-related_publications: DRGONA202114, drgona2022learning, DRGONA2021110992
+related_publications: DRGONA202114, drgona2022learning, DRGONA2021110992, DRGONA202280, NAGY2023110435, 10155901
 ---
 
 
