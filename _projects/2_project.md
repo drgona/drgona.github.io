@@ -58,7 +58,7 @@ or [neural state space models (SSMs)](https://ieeexplore.ieee.org/abstract/docum
 
 
 
-### Highlighted Methods
+#### Highlighted Methods
 
 [**Neural Lyapunov Differentiable Predictive Control**](https://ieeexplore.ieee.org/abstract/document/9992386) 
 combines the principles of Lyapunov functions, model predictive control, 
@@ -69,7 +69,7 @@ optimization with guaranteed stability.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/methods/Lyap_DPC_method.PNG" title="DPC Lyap" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Lyap_DPC_method.png" title="DPC Lyap" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -79,9 +79,7 @@ in the forward pass is followed by backward pass computing direct policy gradien
 </div>
 
 
-### Differentiable Predictive Control with Control Barrier Functions
-
-[*Differentiable Predictive Control with Safety Guarantees: A Control Barrier Function Approach*](https://ieeexplore.ieee.org/abstract/document/9993146) 
+[**Differentiable Predictive Control with Safety Guarantees: A Control Barrier Function Approach**](https://ieeexplore.ieee.org/abstract/document/9993146) 
 combines the principles of control barrier functions, model predictive control, 
 reinforcement learning, and differentiable programming to offer a 
 systematic way for offline model-based policy 
@@ -90,7 +88,7 @@ optimization with guaranteed constraints satisfaction via projections onto the f
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/methods/Barrier_DPC_method.PNG" title="DPC barrier" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Barrier_DPC_method.png" title="DPC barrier" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -110,7 +108,7 @@ as part of the Neuromancer Scientific Machine Learning (SciML) library developed
 
 ## PNNL Team
 - [Mahantesh Halappanavar](https://www.pnnl.gov/people/mahantesh-halappanavar) (PI)
-- Ján Drgoňa (Task lead)
+- **Ján Drgoňa** (Task lead)
 - [Wenceslao Shaw Cortez](https://shawcortez.wordpress.com/)
 - [Sayak Mukherjee](https://energyenvironment.pnnl.gov/staff/staff_info.asp?staff_num=3815)
 - [Sam Chatterjee](https://www.pnnl.gov/people/sam-chatterjee)

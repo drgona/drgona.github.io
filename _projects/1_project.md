@@ -49,13 +49,6 @@ as part of the Neuromancer Scientific Machine Learning (SciML) library developed
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=pnnl&repo=neuromancer)](https://github.com/pnnl/neuromancer)
 
 
-<div class="repo p-2 text-center">
-  <a href="https://github.com/{{ pnnl/neuromancer }}">
-    <img class="repo-img-light w-100" alt="{{ pnnl/neuromancer }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ pnnl }}&repo={{ neuromancer] }}&theme={{ site.repo_theme_light }}&show_owner={{ false }}">
-  </a>
-</div>
-
-
 ## Acknowledgements
 This project is supported through the U.S. Department of Energy (DOE),
 Energy Efficiency and Renewable Energy, Building Technologies Office (BTO) under the 
@@ -65,7 +58,7 @@ by Battelle Memorial Institute under Contract No. DE-AC05-76RL0-1830.
 
 ## PNNL Team
 - [Draguna Vrabie](https://www.pnnl.gov/people/draguna-vrabie-phd) (PI)
-- Ján Drgoňa (Co-PI)
+- **Ján Drgoňa** (Co-PI)
 - [Aaron Tuor](https://www.linkedin.com/in/aarontuor/) (former Co-PI)
 - [James Koch](https://www.linkedin.com/in/james-koch-5285a87a/)
 - [Madelyn Shapiro](https://www.linkedin.com/in/m-shapiro/)
