@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Principal Investigator (PI) and Staff-level Research Scientist at PNNL. 
+I am a Principal Investigator (PI) and Research Data Scientist at PNNL. 
 My current project portfolio is focused on 
 [differentiable programming](https://en.wikipedia.org/wiki/Differentiable_programming) and [scientific
 machine learning](https://www.osti.gov/biblio/1478744/) (SciML) 
@@ -26,7 +26,7 @@ for dynamical systems, constrained optimization, and control.
 I have developed technology roadmaps that contributed to the acquisition of 
 a $20M project portfolio funded by the U.S. Department of Energy (DOE).
 
-I am a lead software developer of [Neuromancer: a SciML library in PyTorch](https://github.com/pnnl/neuromancer) 
+I am a lead software developer of [Neuromancer SciML library in PyTorch](https://github.com/pnnl/neuromancer) 
 for solving constrained optimization, physics-informed machine learning, and optimal control problems. 
-Within two years, our library became the most popular open-source repository released by PNNL.
+Within two years, our library became the most popular open-source repository released by [PNNL](https://github.com/pnnl).
 
