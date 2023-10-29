@@ -2,7 +2,7 @@
 layout: page
 title: Decision and Control of Complex Systems 
 description: Developing scientific machine learning methods for modeling and control of complex systems.
-img: assets/img/3.jpg
+img: assets/img/publication_preview/NeurIPS_DMM.PNG
 importance: 2
 category: work
 related_publications: 9993146, 9992386, DRGONA2022121, NEURIPS2021_c9dd73f5, AutoNF_2023, ns2023extreme, wang2023semisupervised
@@ -69,7 +69,7 @@ optimization with guaranteed stability.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/methods/Lyap_DPC_method.PNG" title="DPC Lyap" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/methods/Lyap_DPC_method.PNG" title="DPC Lyap" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -90,7 +90,7 @@ optimization with guaranteed constraints satisfaction via projections onto the f
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/methods/Barrier_DPC_method.PNG" title="DPC barrier" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/methods/Barrier_DPC_method.PNG" title="DPC barrier" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -105,9 +105,7 @@ in the forward pass is followed by backward pass computing direct policy gradien
 The technology developed under this project is being open-sourced 
 as part of the Neuromancer Scientific Machine Learning (SciML) library developed by our team at PNNL.
 
-[![Readme Card](https://github.com/pnnl/neuromancer.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/pnnl/neuromancer)
-
-![Readme Card](https://github.com/pnnl/neuromancer.vercel.app/api/pin/?username=anuraghazra\&repo=github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=pnnl&repo=neuromancer)](https://github.com/pnnl/neuromancer)
 
 
 ## PNNL Team

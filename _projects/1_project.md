@@ -46,7 +46,14 @@ deployment enabling software will significantly advance BTO’s goals to reduce 
 The technology developed under this project is being open-sourced 
 as part of the Neuromancer Scientific Machine Learning (SciML) library developed by our team at PNNL.
 
-[![Readme Card](https://github.com/pnnl/neuromancer.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/pnnl/neuromancer)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=pnnl&repo=neuromancer)](https://github.com/pnnl/neuromancer)
+
+
+<div class="repo p-2 text-center">
+  <a href="https://github.com/{{ pnnl/neuromancer }}">
+    <img class="repo-img-light w-100" alt="{{ pnnl/neuromancer }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ pnnl }}&repo={{ neuromancer] }}&theme={{ site.repo_theme_light }}&show_owner={{ false }}">
+  </a>
+</div>
 
 
 ## Acknowledgements
