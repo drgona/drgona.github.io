@@ -5,5 +5,7 @@ title:
 nav: true
 nav_order: 4
 cv_pdf: Drgona_CV.pdf
-description:
+description:  
+toc:
+  sidebar: left
 ---
