@@ -3,7 +3,7 @@ layout: page
 title: Building Energy Management via Differentiable Control
 description: Developing differentiable predictive control (DPC) as a market-ready technology for energy-efficient building control.
 img: assets/img/DPC_BTO_project.PNG
-importance: 1
+importance: 2
 category: work
 related_publications: DRGONA202114, drgona2022learning, DRGONA2021110992, DRGONA202280,
  NAGY2023110435, DONG2022109195, 10155901, 10156081, das2022machine

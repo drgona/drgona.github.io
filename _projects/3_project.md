@@ -3,7 +3,7 @@ layout: page
 title: Neuromancer SciML library 
 description: Developing novel scientific machine learning (SciML) methods and user-friendly software library in Pytorch.
 img: assets/img/Neuromancer.png
-importance: 3
+importance: 1
 category: work
 related_publications: 10253098, Shimiao2023, Legaard2023, KochChaos2023, li2023homotopy, 
   9809789, 9867379, 9867586, skomski21a, SkomskiACC2021, drgona2022learning, tuor2020constrained
@@ -64,7 +64,12 @@ The main advantage of this offline DPP-based solution compared to classical opti
 is faster online evaluation, often obtaining orders of magnitude speedups.
 
 
-![Rosenbrock](./assets/img/Rosenbrock_sensitivity.gif)
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Rosenbrock_sensitivity.gif" title="rosenbrock" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 
 
 For more information see the [open-source examples](https://github.com/pnnl/neuromancer/tree/master/examples/parametric_programming).
@@ -86,8 +91,12 @@ Neuromancer currently supports the following system identification methods:
 + [Neural state space models (NSSMs)](https://arxiv.org/abs/2011.13497)
 + [Universal differential equations (UDEs)](https://arxiv.org/abs/2001.04385)
 
-![NODE.](./assets/img/NODE.png)  
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/NODE.png" title="node" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 For more information see the [open-source examples](https://github.com/pnnl/neuromancer/tree/master/examples/ODEs)
 
@@ -112,7 +121,12 @@ to solve the parametric optimal control problem by computing the sensitivities
 of objective functions and constraints to changing problem parameters such as initial conditions, 
 boundary conditions, and parametric control tasks such as time-varying reference tracking.
 
-![DPC_abstract.](./assets/img/DPC_abstract.png)  
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/DPC_abstract.png" title="DPC" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 
 For more information see the [open-source examples](https://github.com/pnnl/neuromancer/tree/master/examples/control)
