@@ -1,81 +1,79 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Advancing Market-Ready Building Energy Management by Cost-Effective Differentiable Predictive Control
+description: Developing differentiable predictive control (DPC) as a market-ready technology for energy-efficient building control.
+img: assets/img/DPC_BTO_project.PNG
 importance: 1
 category: work
-related_publications: einstein1956investigations, einstein1950meaning
+related_publications: DRGONA202114, drgona2022learning, DRGONA2021110992
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### Abstract 
+At PNNL, I have led the development and demonstration of  
+differentiable predictive control (DPC), a state-of-the-art advanced control method,
+that enables rapid design and scalable deployment of predictive controls for
+building energy systems. DPC provides benefits of model predictive control (MPC) at costs and complexity
+of traditional controls allowing for improved control and predictions which result in reduced energy use,
+demand flexibility and improved air quality. 
+Under this project, my PNNL team collaborates with four industry partners to integrate
+DPC with existing market-available control products to develop affordable, high-performance, and scalable
+predictive control solutions that can be deployed in new and existing buildings to reduce energy, peak demand,
+greenhouse gas emissions, and improve occupant comfort. The project will demonstrate the  DPC
+technology’s flexibility in design and deployment to industry use cases and underlying building energy
+systems without substantial, bespoke rework. Performance and affordability of DPC supervisory control
+solutions will be evaluated in more than four occupied, small, medium, and large commercial buildings
+situated in various climate zones. Applied research will be directed by industry objectives to bring to the
+market this new capability, and enable its broad deployment. The resulting buildings control technologies and
+deployment enabling software will significantly advance BTO’s goals to reduce emissions in US buildings.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/DPC_BTO_project.PNG" title="DPC BTO" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Overview of Differentiable Predictive Control (DPC) methodology for real-world building control.
 </div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Open-source Software 
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+The technology developed under this project is being open-sourced at:
+
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% include repository/repo.html repository=pnnl/neuromancer %}
 </div>
-```
-{% endraw %}
+
+
+
+### Acknowledgements
+This project is supported through the U.S. Department of Energy (DOE),
+Energy Efficiency and Renewable Energy, Building Technologies Office (BTO) under the 
+“Advancing Market-Ready Building Energy Management by Cost-Effective Differentiable Predictive Control” projects. 
+ PNNL is a multi-program national laboratory operated for the U.S. Department of Energy (DOE) 
+by Battelle Memorial Institute under Contract No. DE-AC05-76RL0-1830.
+
+### PNNL Team
+- [Draguna Vrabie](https://www.pnnl.gov/people/draguna-vrabie-phd) (PI)
+- Ján Drgoňa (Co-PI)
+- [Aaron Tuor](https://www.linkedin.com/in/aarontuor/) (former Co-PI)
+- [James Koch](https://www.linkedin.com/in/james-koch-5285a87a/)
+- [Madelyn Shapiro](https://www.linkedin.com/in/m-shapiro/)
+- [Wenceslao Shaw Cortez](https://shawcortez.wordpress.com/)
+- [Soumya Vasisht](https://www.linkedin.com/in/m-shapiro/)
+- [Rahul Birmiwal](https://www.linkedin.com/in/rahul-birmiwal009/)
+- [Himanshu Sharma](https://www.linkedin.com/in/hsharma2328/)
+- [Brian Hutchinson](https://www.linkedin.com/in/brian-hutchinson-7a8b0857/) (WWU Professor)
+- [Seth Briney](https://www.linkedin.com/in/sethlbriney/) (WWU student)
+- [Diego Llanes](https://www.linkedin.com/in/diego-llanes-ai/) (WWU student)
+- [Harry Qiang](https://www.linkedin.com/in/harry-qiang-23417151/) (WWU student)
+
+
+### Industrial Partners
+- [Community Energy Labs](https://communityenergylabs.com/)
+- [Verdigris](https://verdigris.co/)
+- [Elexity](https://www.elexity.io/)
+- [Delta Controls](https://deltacontrols.com/)
