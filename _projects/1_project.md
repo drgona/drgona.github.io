@@ -40,12 +40,9 @@ deployment enabling software will significantly advance BTO’s goals to reduce 
 
 ### Open-source Software 
 
-The technology developed under this project is being open-sourced at:
+The technology developed under this project is being open-sourced at Gitbub: 
+[Neuromancer](https://github.com/pnnl/neuromancer).
 
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo.html repository=pnnl/neuromancer %}
-</div>
 
 
 
