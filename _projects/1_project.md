@@ -10,8 +10,8 @@ related_publications: DRGONA202114, drgona2022learning, DRGONA2021110992
 
 
 ### Abstract 
-At PNNL, I have led the development and demonstration of  
-differentiable predictive control (DPC), a state-of-the-art advanced control method,
+At PNNL, I have led the development and demonstration of 
+[differentiable predictive control (DPC)](https://www.sciencedirect.com/science/article/pii/S0959152422000981), a state-of-the-art advanced control method,
 that enables rapid design and scalable deployment of predictive controls for
 building energy systems. DPC provides benefits of model predictive control (MPC) at costs and complexity
 of traditional controls allowing for improved control and predictions which result in reduced energy use,
@@ -19,7 +19,7 @@ demand flexibility and improved air quality.
 Under this project, my PNNL team collaborates with four industry partners to integrate
 DPC with existing market-available control products to develop affordable, high-performance, and scalable
 predictive control solutions that can be deployed in new and existing buildings to reduce energy, peak demand,
-greenhouse gas emissions, and improve occupant comfort. The project will demonstrate the  DPC
+greenhouse gas emissions, and improve occupant comfort. The project will demonstrate the DPC
 technology’s flexibility in design and deployment to industry use cases and underlying building energy
 systems without substantial, bespoke rework. Performance and affordability of DPC supervisory control
 solutions will be evaluated in more than four occupied, small, medium, and large commercial buildings
@@ -40,10 +40,10 @@ deployment enabling software will significantly advance BTO’s goals to reduce 
 
 ### Open-source Software 
 
-The technology developed under this project is being open-sourced at Gitbub: 
-[Neuromancer](https://github.com/pnnl/neuromancer).
+The technology developed under this project is being open-sourced 
+as part of the Neuromancer Scientific Machine Learning (SciML) library developed by our team at PNNL.
 
-
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/pnnl/neuromancer)
 
 
 ### Acknowledgements
