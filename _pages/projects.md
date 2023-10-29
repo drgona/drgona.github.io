@@ -5,7 +5,7 @@ permalink: /projects/
 description: This is a portfolio of my active and past research projects.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [methods and tools, applications]
 horizontal: false
 ---
 

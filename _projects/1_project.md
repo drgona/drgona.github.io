@@ -4,7 +4,7 @@ title: Neuromancer SciML library
 description: Developing novel scientific machine learning (SciML) methods and user-friendly software library in Pytorch.
 img: assets/img/Neuromancer.png
 importance: 1
-category: work
+category: methods and tools
 related_publications: 10253098, Shimiao2023, Legaard2023, KochChaos2023, li2023homotopy, 
   9809789, 9867379, 9867586, skomski21a, SkomskiACC2021, drgona2022learning, tuor2020constrained
 ---

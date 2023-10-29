@@ -4,7 +4,7 @@ title: Decision and Control of Complex Systems
 description: Developing scientific machine learning methods for modeling and control of complex systems.
 img: assets/img/publication_preview/NeurIPS_DMM.PNG
 importance: 3
-category: work
+category: methods and tools
 related_publications: 9993146, 9992386, DRGONA2022121, NEURIPS2021_c9dd73f5, AutoNF_2023, ns2023extreme, wang2023semisupervised
 ---
 
