@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Staff-level Research Scientist, Pacific Northwest National Laboratory
+subtitle: Staff-level Research Scientist, Pacific Northwest National Laboratory (PNNL)
 
 profile:
   align: right
@@ -18,9 +18,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Principal Investigator (PI) and Staff-level Research Scientist at the Pacific Northwest National
-Laboratory (PNNL). My current project portfolio is focused on differentiable programming and scientific
-machine learning (SciML) for dynamical systems, optimization, and control.
+I am a Principal Investigator (PI) and Staff-level Research Scientist at PNNL. 
+My current project portfolio is focused on 
+[differentiable programming](https://en.wikipedia.org/wiki/Differentiable_programming) and [scientific
+machine learning](https://www.osti.gov/biblio/1478744/) (SciML) 
+for dynamical systems, constrained optimization, and control.
 I have developed technology roadmaps that contributed to the acquisition of 
 a $20M project portfolio funded by the U.S. Department of Energy (DOE).
 

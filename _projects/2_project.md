@@ -45,7 +45,7 @@ based on differentiable programming paradigm.
 The technology developed under this project is being open-sourced 
 as part of the Neuromancer Scientific Machine Learning (SciML) library developed by our team at PNNL.
 
-[![Readme Card](https://github.com/pnnl/neuromancer.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/pnnl/neuromancer)
+[![Readme Card](https://github.com/pnnl/neuromancer.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/pnnl/neuromancer)
 
 
 ### PNNL Team
