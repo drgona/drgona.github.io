@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - drgona
+  - pnnl
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - pnnl/neuromancer
+  - pnnl/deps_arXiv2020
+  - drgona/BeSim
+

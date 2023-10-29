@@ -35,7 +35,10 @@
   volume={},
   number={},
   pages={1-5},
-  doi={10.1109/PESGM52003.2023.10253098}}
+  html={https://ieeexplore.ieee.org/document/10253098},
+  doi={10.1109/PESGM52003.2023.10253098},
+  preview={PESGM.PNG}
+  }
 
 @article{AutoNF_2023,
     abbr={AAAI},
@@ -51,10 +54,12 @@
     author={Wang, Yu and Drgoňa, Ján and Zhang, Jiaxin and Nanjangud Suryanarayana, Karthik Somayaji and Schram, Malachi and Liu, Frank and Li, Peng},
     year={2023},
     month={Jun.},
+    html={https://ojs.aaai.org/index.php/AAAI/article/view/26220},
+    preview={AAAI2023.PNG},
     pages={10244-10252} }
 
 @INPROCEEDINGS{10155901,
-    abbr={ACC},
+    abbr={ACC 2023},
     bibtex_show={true},
   author={Nghiem, Truong X. and Drgoňa, Ján and Jones, Colin and Nagy, Zoltan and Schwan, Roland and Dey, Biswadip and Chakrabarty, Ankush and Di Cairano, Stefano and Paulson, Joel A. and Carron, Andrea and Zeilinger, Melanie N. and Shaw Cortez, Wenceslao and Vrabie, Draguna L.},
   booktitle={2023 American Control Conference (ACC)},
@@ -63,10 +68,11 @@
   volume={},
   number={},
   pages={3735-3750},
+  html={https://ieeexplore.ieee.org/document/10155901},
   doi={10.23919/ACC55779.2023.10155901}}
 
   @INPROCEEDINGS{10156081,
-      abbr={ACC},
+      abbr={ACC 2023},
       bibtex_show={true},
       author={Soudbakhsh, Damoon and Annaswamy, Anuradha M. and Wang, Yan and Brunton, Steven L. and Gaudio, Joseph and Hussain, Heather and Vrabie, Draguna and Drgoňa, Ján and Filev, Dimitar},
       booktitle={2023 American Control Conference (ACC)},
@@ -74,6 +80,7 @@
       year={2023},
       volume={},
       number={},
+      html={https://ieeexplore.ieee.org/document/10156081},
       pages={1922-1939},
       doi={10.23919/ACC55779.2023.10156081}}
 
@@ -87,6 +94,7 @@
     pages = {110435},
     year = {2023},
     issn = {0360-1323},
+        html = {https://www.sciencedirect.com/science/article/pii/S0360132323004626},
     doi = {https://doi.org/10.1016/j.buildenv.2023.110435},
     url = {https://www.sciencedirect.com/science/article/pii/S0360132323004626},
     author = {Zoltan Nagy and Gregor Henze and Sourav Dey and Javier Arroyo and Lieve Helsen and Xiangyu Zhang and Bingqing Chen and Kadir Amasyali and Kuldeep Kurte and Ahmed Zamzam and Helia Zandi and Ján Drgoňa and Matias Quintana and Steven McCullogh and June Young Park and Han Li and Tianzhen Hong and Silvio Brandi and Giuseppe Pinto and Alfonso Capozzoli and Draguna Vrabie and Mario Bergés and Kingsley Nweye and Thibault Marzullo and Andrey Bernstein},
@@ -104,6 +112,7 @@ isbn = {9798400702273},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 url = {https://doi.org/10.1145/3599733.3600257},
+html = {https://doi.org/10.1145/3599733.3600257},
 doi = {10.1145/3599733.3600257},
 abstract = {Recent years have seen a rich literature of data-driven approaches designed for power grid applications. However, insufficient consideration of domain knowledge can impose a high risk to the practicality of the methods. Specifically, ignoring the grid-specific spatiotemporal patterns (in load, generation, and topology, etc.) can lead to outputting infeasible, unrealizable, or completely meaningless predictions on new inputs. To address this concern, this paper investigates real-world operational data to provide insights into power grid behavioral patterns, including the time-varying topology, load, and generation, as well as the spatial differences (in peak hours, diverse styles) between individual loads and generations. Then based on these observations, we evaluate the generalization risks in some existing ML works caused by ignoring these grid-specific patterns in model design and training.},
 booktitle = {Companion Proceedings of the 14th ACM International Conference on Future Energy Systems},
@@ -128,12 +137,15 @@ volume = {55},
 number = {11},
 issn = {0360-0300},
 url = {https://doi.org/10.1145/3567591},
+html = {https://doi.org/10.1145/3567591},
 doi = {10.1145/3567591},
 abstract = {Dynamical systems see widespread use in natural sciences like physics, biology, and chemistry, as well as engineering disciplines such as circuit analysis, computational fluid dynamics, and control. For simple systems, the differential equations governing the dynamics can be derived by applying fundamental physical laws. However, for more complex systems, this approach becomes exceedingly difficult. Data-driven modeling is an alternative paradigm that seeks to learn an approximation of the dynamics of a system using observations of the true system. In recent years, there has been an increased interest in applying data-driven modeling techniques to solve a wide range of problems in physics and engineering. This article provides a survey of the different ways to construct models of dynamical systems using neural networks. In addition to the basic overview, we review the related literature and outline the most significant challenges from numerical simulations that this modeling paradigm must overcome. Based on the reviewed literature and identified challenges, we provide a discussion on promising research areas.},
 journal = {ACM Comput. Surv.},
 month = {feb},
 articleno = {236},
 numpages = {34},
+preview={ACMCS2023.PNG},
+code ={https://github.com/clegaard/deep_learning_for_dynamical_systems},
 keywords = {physics-informed neural networks, physics-based regularization, Neural ODEs}
 }
 
@@ -151,6 +163,8 @@ keywords = {physics-informed neural networks, physics-based regularization, Neur
     abstract = "{Networked dynamical systems are common throughout science in engineering; e.g., biological networks, reaction networks, power systems, and the like. For many such systems, nonlinearity drives populations of identical (or near-identical) units to exhibit a wide range of nontrivial behaviors, such as the emergence of coherent structures (e.g., waves and patterns) or otherwise notable dynamics (e.g., synchrony and chaos). In this work, we seek to infer (i) the intrinsic physics of a base unit of a population, (ii) the underlying graphical structure shared between units, and (iii) the coupling physics of a given networked dynamical system given observations of nodal states. These tasks are formulated around the notion of the Universal Differential Equation, whereby unknown dynamical systems can be approximated with neural networks, mathematical terms known a priori (albeit with unknown parameterizations), or combinations of the two. We demonstrate the value of these inference tasks by investigating not only future state predictions but also the inference of system behavior on varied network topologies. The effectiveness and utility of these methods are shown with their application to canonical networked nonlinear coupled oscillators.}",
     issn = {1054-1500},
     doi = {10.1063/5.0109093},
+    preview={Chaos.PNG},
+        html = {https://doi.org/10.1063/5.0109093},
     url = {https://doi.org/10.1063/5.0109093},
     eprint = {https://pubs.aip.org/aip/cha/article-pdf/doi/10.1063/5.0109093/16958339/023103\_1\_5.0109093.pdf},
 }
@@ -166,7 +180,9 @@ pages = {228-233},
 year = {2023},
 note = {12th IFAC Symposium on Nonlinear Control Systems NOLCOS 2022},
 issn = {2405-8963},
+preview={iver.PNG},
 doi = {https://doi.org/10.1016/j.ifacol.2023.02.039},
+html = {https://www.sciencedirect.com/science/article/pii/S2405896323002276},
 url = {https://www.sciencedirect.com/science/article/pii/S2405896323002276},
 author = {Wenceslao Shaw Cortez and Soumya Vasisht and Aaron Tuor and James Koch and Ján Drgoňa and Draguna Vrabie},
 keywords = {Deep learning, System identification, Nonlinear predictive control},
@@ -175,7 +191,7 @@ abstract = {Conventional physics-based modeling is a time-consuming bottleneck i
 
 
 @INPROCEEDINGS{9993146,
-      abbr={CDC},
+      abbr={CDC 2022},
       bibtex_show={true},
   author={Cortez, W. Shaw and Drgoňa, Ján and Tuor, A. and Halappanavar, M. and Vrabie, D.},
   booktitle={2022 IEEE 61st Conference on Decision and Control (CDC)},
@@ -183,12 +199,14 @@ abstract = {Conventional physics-based modeling is a time-consuming bottleneck i
   year={2022},
   volume={},
   number={},
+  preview={CDC2023_barrier.PNG},
+    html = {https://ieeexplore.ieee.org/abstract/document/9993146},
   url = {https://ieeexplore.ieee.org/abstract/document/9993146},
   pages={932-938},
   doi={10.1109/CDC51059.2022.9993146}}
 
 @INPROCEEDINGS{9992386,
-      abbr={CDC},
+      abbr={CDC 2022},
       bibtex_show={true},
   author={Mukherjee, Sayak and Drgoňa, Ján and Tuor, Aaron and Halappanavar, Mahantesh and Vrabie, Draguna},
   booktitle={2022 IEEE 61st Conference on Decision and Control (CDC)},
@@ -196,7 +214,9 @@ abstract = {Conventional physics-based modeling is a time-consuming bottleneck i
   year={2022},
   volume={},
   number={},
+  preview={CDC2023_lyapunov},
   code={https://github.com/pnnl/neuromancer/tree/Lyapunov_DPC},
+    html = {https://ieeexplore.ieee.org/abstract/document/9992386},
   url = {https://ieeexplore.ieee.org/abstract/document/9992386},
   pages={2097-2104},
   doi={10.1109/CDC51059.2022.9992386}}
@@ -208,6 +228,7 @@ abstract = {Conventional physics-based modeling is a time-consuming bottleneck i
       title={Machine Learning for Smart and Energy-Efficient Buildings},
       author={Hari Prasanna Das and Yu-Wen Lin and Utkarsha Agwan and Lucas Spangher and Alex Devonport and Yu Yang and Ján Drgoňa and Adrian Chong and Stefano Schiavon and Costas J. Spanos},
       year={2022},
+      arxiv={https://arxiv.org/abs/2211.14889},
       eprint={2211.14889},
       archivePrefix={arXiv},
       primaryClass={cs.LG}
@@ -220,6 +241,8 @@ abstract = {Conventional physics-based modeling is a time-consuming bottleneck i
     title={Homotopy Learning of Parametric Solutions to Constrained Optimization Problems},
     author={Shimiao Li and Ján Drgoňa and Aaron R Tuor and Larry Pileggi and Draguna L Vrabie},
     year={2023},
+    preview={homotopy.PNG},
+        html={https://openreview.net/forum?id=GdimRqV_S7},
     url={https://openreview.net/forum?id=GdimRqV_S7}
 }
 
@@ -233,7 +256,10 @@ volume = {116},
 pages = {80-92},
 year = {2022},
 issn = {0959-1524},
+preview={DPC.PNG},
+code={https://github.com/pnnl/neuromancer/tree/master/examples/control},
 doi = {https://doi.org/10.1016/j.jprocont.2022.06.001},
+html = {https://www.sciencedirect.com/science/article/pii/S0959152422000981},
 url = {https://www.sciencedirect.com/science/article/pii/S0959152422000981},
 author = {Ján Drgoňa and Karol Kiš and Aaron Tuor and Draguna Vrabie and Martin Klaučo},
 keywords = {Differentiable predictive control, Model predictive control, Neural state space models, Data-driven differentiable optimization, Deep learning},
@@ -241,7 +267,7 @@ abstract = {We present differentiable predictive control (DPC) as a deep learnin
 }
 
 @INPROCEEDINGS{9837986,
-      abbr={ECC},
+      abbr={ECC 2022},
       bibtex_show={true},
   author={Sinha, Subhrajit and Nandanoori, Sai Pushpak and Drgona, Ján and Vrabie, Draguna},
   booktitle={2022 European Control Conference (ECC)},
@@ -250,6 +276,8 @@ abstract = {We present differentiable predictive control (DPC) as a deep learnin
   volume={},
   number={},
   pages={552-559},
+  previw={ECC2022.PNG},
+    html = {https://ieeexplore.ieee.org/abstract/document/9837986},
   url = {https://ieeexplore.ieee.org/abstract/document/9837986},
   doi={10.23919/ECC55457.2022.9837986}}
 
@@ -264,6 +292,7 @@ pages = {109195},
 year = {2022},
 issn = {0360-1323},
 doi = {https://doi.org/10.1016/j.buildenv.2022.109195},
+html = {https://www.sciencedirect.com/science/article/pii/S0360132322004310},
 url = {https://www.sciencedirect.com/science/article/pii/S0360132322004310},
 author = {Bing Dong and Romana Markovic and Salvatore Carlucci and Yapan Liu and Andreas Wagner and Antonio Liguori and Christoph {van Treeck} and Dmitry Oleynikov and Elie Azar and Gianmarco Fajilla and Ján Drgoňa and Joyce Kim and Marika Vellei and Marilena {De Simone} and Masood Shamsaiee and Mateus Bavaresco and Matteo Favero and Mikkel Kjaergaard and Mohamed Osman and Moritz Frahm and Sanam Dabirian and Da Yan and Xuyuan Kang},
 keywords = {Guideline documentation, Occupant behavior model, Building control, Model Predictive control (MPC)},
@@ -280,13 +309,15 @@ abstract = {The availability of computational power, and a wealth of data from s
   volume={1},
   number={},
   pages={100-112},
+  preview={IEEEOJCS.PNG},
+    html = {https://ieeexplore.ieee.org/abstract/document/9809789},
   url = {https://ieeexplore.ieee.org/abstract/document/9809789},
   code={https://github.com/pnnl/slim},
   doi={10.1109/OJCSYS.2022.3186838}}
 
 
 @INPROCEEDINGS{9867379,
-      abbr={ACC},
+      abbr={ACC 2022},
       bibtex_show={true},
   author={King, Ethan and Drgoňa, Ján and Tuor, Aaron and Abhyankar, Shrirang and Bakker, Craig and Bhattacharya, Arnab and Vrabie, Draguna},
   booktitle={2022 American Control Conference (ACC)},
@@ -295,13 +326,15 @@ abstract = {The availability of computational power, and a wealth of data from s
   volume={},
   number={},
   pages={2194-2201},
+  preview={ACC2022_koopman.PNG},
   code={https://github.com/pnnl/neuromancer/tree/DED_DPC},
+    html={https://ieeexplore.ieee.org/abstract/document/9867379},
   url={https://ieeexplore.ieee.org/abstract/document/9867379},
   doi={10.23919/ACC53348.2022.9867379}}
 
 
 @INPROCEEDINGS{9867586,
-      abbr={ACC},
+      abbr={ACC 2022},
       bibtex_show={true},
   author={Rahman, Aowabin and Drgoňa, Ján and Tuor, Aaron and Strube, Jan},
   booktitle={2022 American Control Conference (ACC)},
@@ -310,6 +343,8 @@ abstract = {The availability of computational power, and a wealth of data from s
   volume={},
   number={},
   pages={3979-3984},
+  code={https://github.com/pnnl/neuromancer/tree/master/examples/ODEs},
+    html={https://ieeexplore.ieee.org/abstract/document/9867586},
   url={https://ieeexplore.ieee.org/abstract/document/9867586},
   doi={10.23919/ACC53348.2022.9867586}}
 
@@ -325,7 +360,10 @@ pages = {121-126},
 year = {2022},
 note = {10th IFAC Symposium on Robust Control Design ROCOND 2022},
 issn = {2405-8963},
+preview={SDPC.PNG},
+code={https://github.com/pnnl/neuromancer/tree/DPC#stochastic-differentiable-predictive-control},
 doi = {https://doi.org/10.1016/j.ifacol.2022.09.334},
+html = {https://www.sciencedirect.com/science/article/pii/S2405896322015877},
 url = {https://www.sciencedirect.com/science/article/pii/S2405896322015877},
 author = {Ján Drgoňa and Sayak Mukherjee and Aaron Tuor and Mahantesh Halappanavar and Draguna Vrabie},
 keywords = {Stochastic explicit model predictive control, offline model-based policy optimization, deep neural networks, differentiable programming, parametric programming},
@@ -333,14 +371,16 @@ abstract = {The problem of synthesizing stochastic explicit model predictive con
 }
 
 @inproceedings{NEURIPS2021_c9dd73f5,
-      abbr={NeurIPS},
+      abbr={NeurIPS 2021},
       bibtex_show={true},
  author = {Drgona, Ján and Mukherjee, Sayak and Zhang, Jiaxin and Liu, Frank and Halappanavar, Mahantesh},
  booktitle = {Advances in Neural Information Processing Systems},
  editor = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan},
  pages = {24033--24047},
  publisher = {Curran Associates, Inc.},
+ preview={NeurIPS_DMM.PNG},
  title = {On the Stochastic Stability of Deep Markov Models},
+  html = {https://proceedings.neurips.cc/paper_files/paper/2021/file/c9dd73f5cb96486f5e1e0680e841a550-Paper.pdf},
  url = {https://proceedings.neurips.cc/paper_files/paper/2021/file/c9dd73f5cb96486f5e1e0680e841a550-Paper.pdf},
  volume = {34},
  code ={https://github.com/pnnl/slim},
@@ -357,8 +397,11 @@ volume = {14},
 number = {5},
 pages = {586-610},
 year = {2021},
+preview={BOPTEST.PNG},
 publisher = {Taylor & Francis},
+code={https://github.com/ibpsa/project1-boptest},
 doi = {10.1080/19401493.2021.1986574},
+html = {https://doi.org/10.1080/19401493.2021.1986574},
 URL = {https://doi.org/10.1080/19401493.2021.1986574},
 eprint = {https://doi.org/10.1080/19401493.2021.1986574}
 }
@@ -368,6 +411,7 @@ eprint = {https://doi.org/10.1080/19401493.2021.1986574}
       bibtex_show={true},
 	doi = {https://doi.org/10.26868/25222708.2021.30806},
 	url = {https://publications.ibpsa.org/conference/paper/?id=bs2021_30806},
+		html = {https://publications.ibpsa.org/conference/paper/?id=bs2021_30806},
 	year = {2021},
 	month = {September},
 	publisher = {IBPSA},
@@ -394,7 +438,9 @@ volume = {243},
 pages = {110992},
 year = {2021},
 issn = {0378-7788},
+preview={EnB2021.PNG},
 doi = {https://doi.org/10.1016/j.enbuild.2021.110992},
+html = {https://www.sciencedirect.com/science/article/pii/S0378778821002760},
 url = {https://www.sciencedirect.com/science/article/pii/S0378778821002760},
 code={https://github.com/pnnl/neuromancer/tree/system_ID_building},
 author = {Ján Drgoňa and Aaron R. Tuor and Vikas Chandan and Draguna L. Vrabie},
@@ -418,12 +464,13 @@ abstract = {We present a physics-constrained deep learning method to develop con
   publisher =    {PMLR},
   pdf = 	 {http://proceedings.mlr.press/v144/skomski21a/skomski21a.pdf},
   url = 	 {https://proceedings.mlr.press/v144/skomski21a.html},
+    html = 	 {https://proceedings.mlr.press/v144/skomski21a.html},
   Abs = 	 {Recent works exploring deep learning application to dynamical systems modeling have demonstrated that embedding physical priors into neural networks can yield more effective, physically-realistic, and data-efficient models. However, in the absence of complete prior knowledge of a dynamical system’s physical characteristics, determining the optimal structure and optimization strategy for these models can be difficult. In this work, we explore methods for discovering neural state space dynamics models for system identification. Starting with a design space of block-oriented state space models and structured linear maps with strong physical priors, we encode these components into a model genome alongside network structure, penalty constraints, and optimization hyperparameters. Demonstrating the overall utility of the design space, we employ an asynchronous genetic search algorithm that alternates between model selection and optimization and obtains accurate physically consistent models of three physical systems: an aerodynamics body, a continuous stirred tank reactor, and a two tank interacting system.}
 }
 
 
 @INPROCEEDINGS{SkomskiACC2021,
-      abbr={ACC},
+      abbr={ACC 2021},
       bibtex_show={true},
   author={Skomski, Elliott and Vasisht, Soumya and Wight, Colby and Tuor, Aaron and Drgoňa, Ján and Vrabie, Draguna},
   booktitle={2021 American Control Conference (ACC)},
@@ -432,6 +479,9 @@ abstract = {We present a physics-constrained deep learning method to develop con
   volume={},
   number={},
   pages={3993-4000},
+  preview={ACC_2021_nssm.PNG},
+  code={https://github.com/pnnl/neuromancer/tree/master/examples/ODEs},
+    html={https://ieeexplore.ieee.org/abstract/document/9482930},
   url={https://ieeexplore.ieee.org/abstract/document/9482930},
   doi={10.23919/ACC50511.2021.9482930}}
 
@@ -446,8 +496,10 @@ volume = {14},
 number = {1},
 pages = {1-19},
 year = {2021},
+preview={borefields.PNG},
 publisher = {Taylor & Francis},
 doi = {10.1080/19401493.2020.1838612},
+html = {https://doi.org/10.1080/19401493.2020.1838612},
 URL = {https://doi.org/10.1080/19401493.2020.1838612},
 eprint = {https://doi.org/10.1080/19401493.2020.1838612}
 }
@@ -461,9 +513,11 @@ volume = {54},
 number = {6},
 pages = {14-19},
 year = {2021},
+preview={DPC_buildings.PNG},
 note = {7th IFAC Conference on Nonlinear Model Predictive Control NMPC 2021},
 issn = {2405-8963},
 doi = {https://doi.org/10.1016/j.ifacol.2021.08.518},
+html = {https://www.sciencedirect.com/science/article/pii/S2405896321012933},
 url = {https://www.sciencedirect.com/science/article/pii/S2405896321012933},
 code={https://github.com/pnnl/neuromancer/tree/building_ctrl},
 author = {Ján Drgoňa and Aaron Tuor and Elliott Skomski and Soumya Vasisht and Draguna Vrabie},
@@ -483,7 +537,10 @@ Abs= {We present a differentiable predictive control (DPC) methodology for learn
     month = {10},
     Abs= "{It has been shown that model predictive control (MPC) is a promising solution for energy-efficient building operations. However, the deployment of MPC in a large portion of the building stock has not been possible partially because of high installation costs. Every building is unique and requires a tailored MPC solution. The best performing solutions are often based on physics-based modeling, which is, however, computationally expensive and requires dedicated software. A promising direction that tackles this problem is to train a neural network-based optimal control policy to imitate the behavior of physics-based MPC from the simulation data generated offline. The neural networks give control actions that closely approximate those produced by physics-based MPC, but with a fraction of the computational and memory requirements and without the need for licensed software. The main advantage of the proposed approach stems from simple evaluation at execution time, leading to low computational foot-prints and easy deployment on embedded HW platforms. In the case study, we present the energy savings potential of physics-based MPC applied to an office building in Belgium. We demonstrate how neural network approximators can be used to cut the implementation and maintenance costs of MPC deployment without compromising performance. We also critically assess the presented approach by pointing out the remaining challenges and open research questions.}",
     doi = {10.1115/DSCC2020-3118},
+        html = {https://doi.org/10.1115/DSCC2020-3118},
     url = {https://doi.org/10.1115/DSCC2020-3118},
+    preview={MPC_imitation_conf.PNG},
+    code={https://github.com/drgona/BeSim},
     eprint = {https://asmedigitalcollection.asme.org/DSCC/proceedings-pdf/DSCC2020/84270/V001T09A001/6622197/v001t09a001-dscc2020-3118.pdf},
 }
 
@@ -495,7 +552,9 @@ Abs= {We present a differentiable predictive control (DPC) methodology for learn
       year={2022},
       eprint={2004.11184},
       archivePrefix={arXiv},
+      preview={DPC_cl_animation.gif},
       code={https://github.com/pnnl/deps_arXiv2020},
+      arxiv={https://arxiv.org/abs/2004.11184},
       primaryClass={eess.SY}
 }
 
@@ -508,6 +567,7 @@ Abs= {We present a differentiable predictive control (DPC) methodology for learn
       year={2020},
       eprint={2004.10883},
       archivePrefix={arXiv},
+            arxiv={https://arxiv.org/abs/2004.10883},
       url={https://arxiv.org/abs/2004.10883},
       code={https://github.com/pnnl/slim},
       primaryClass={eess.SY}
@@ -523,7 +583,9 @@ volume = {88},
 pages = {63-77},
 year = {2020},
 issn = {0959-1524},
+preview={JoPC_buildingMPC.PNG},
 doi = {https://doi.org/10.1016/j.jprocont.2020.02.007},
+html = {https://www.sciencedirect.com/science/article/pii/S0959152419306857},
 url = {https://www.sciencedirect.com/science/article/pii/S0959152419306857},
 author = {Ján Drgoňa and Damien Picard and Lieve Helsen},
 code={https://github.com/drgona/BeSim},
@@ -541,7 +603,9 @@ volume = {50},
 pages = {190-232},
 year = {2020},
 issn = {1367-5788},
+preview={ARC.PNG},
 doi = {https://doi.org/10.1016/j.arcontrol.2020.09.001},
+html = {https://www.sciencedirect.com/science/article/pii/S1367578820300584},
 url = {https://www.sciencedirect.com/science/article/pii/S1367578820300584},
 author = {Ján Drgoňa and Javier Arroyo and Iago {Cupeiro Figueroa} and David Blum and Krzysztof Arendt and Donghun Kim and Enric Perarnau Ollé and Juraj Oravec and Michael Wetter and Draguna L. Vrabie and Lieve Helsen},
 keywords = {Model predictive control, Building climate control, MPC formulation, MPC software tools, MPC implementation},
@@ -558,6 +622,7 @@ pages = {199-216},
 year = {2018},
 issn = {0306-2619},
 doi = {https://doi.org/10.1016/j.apenergy.2018.02.156},
+html = {https://www.sciencedirect.com/science/article/pii/S0306261918302903},
 url = {https://www.sciencedirect.com/science/article/pii/S0306261918302903},
 code ={https://github.com/drgona/BeSim},
 author = {Ján Drgoňa and Damien Picard and Michal Kvasnica and Lieve Helsen},
@@ -571,6 +636,7 @@ Abs= {Many studies have proven that the building sector can significantly benefi
       bibtex_show={true},
 	doi = {https://doi.org/10.26868/25222708.2019.210226},
 	url = {https://publications.ibpsa.org/conference/paper/?id=bs2019_210226},
+		html = {https://publications.ibpsa.org/conference/paper/?id=bs2019_210226},
 	year = {2019},
 	month = {September},
 	publisher = {IBPSA},
@@ -599,6 +665,7 @@ pages = {289-299},
 year = {2018},
 issn = {0098-1354},
 doi = {https://doi.org/10.1016/j.compchemeng.2017.09.020},
+html = {https://www.sciencedirect.com/science/article/pii/S0098135417303393},
 url = {https://www.sciencedirect.com/science/article/pii/S0098135417303393},
 author = {Juraj Holaza and Martin Klaučo and Ján Drgoňa and Juraj Oravec and Michal Kvasnica and Miroslav Fikar},
 keywords = {Model predictive control, Parametric programming, Reference governor, Continuous stirred-tank reactor},
@@ -615,7 +682,9 @@ volume = {152},
 pages = {739-751},
 year = {2017},
 issn = {0378-7788},
+    code={https://github.com/drgona/BeSim},
 doi = {https://doi.org/10.1016/j.enbuild.2017.07.027},
+html = {https://www.sciencedirect.com/science/article/pii/S0378778817302190},
 url = {https://www.sciencedirect.com/science/article/pii/S0378778817302190},
 author = {Damien Picard and Ján Drgoňa and Michal Kvasnica and Lieve Helsen},
 keywords = {Building climate control, Optimization, Model predictive control, Model order reduction, Controller model},
@@ -623,12 +692,14 @@ Abs= {Model predictive control (MPC) for heating, ventilation and air conditioni
 }
 
 @inproceedings{drgona2019stripping,
-      abbr={NeurIPS CCAI},
+      abbr={NeurIPS},
       bibtex_show={true},
+          code={https://github.com/drgona/BeSim},
   title={Stripping off the implementation complexity of physics-based model predictive control for buildings via deep learning},
   author={Drgona, Ján and Helsen, Lieve and Vrabie, Draguna},
   booktitle={NeurIPS 2019 Workshop on Tackling Climate Change with Machine Learning},
   url={https://www.climatechange.ai/papers/neurips2019/34},
+    html={https://www.climatechange.ai/papers/neurips2019/34},
   year={2019}
 }
 
@@ -642,6 +713,7 @@ Abs= {Model predictive control (MPC) for heating, ventilation and air conditioni
   volume={},
   number={},
   pages={149-154},
+    html={https://ieeexplore.ieee.org/abstract/document/7976205},
   url={https://ieeexplore.ieee.org/abstract/document/7976205},
   doi={10.1109/PC.2017.7976205}}
 
@@ -656,6 +728,7 @@ Abs= {Model predictive control (MPC) for heating, ventilation and air conditioni
   volume={},
   number={},
   pages={422-427},
+    html={https://ieeexplore.ieee.org/abstract/document/7976251},
   url={https://ieeexplore.ieee.org/abstract/document/7976251},
   doi={10.1109/PC.2017.7976251}}
 
@@ -669,6 +742,7 @@ Abs= {Model predictive control (MPC) for heating, ventilation and air conditioni
   volume={},
   number={},
   pages={120-125},
+    html={https://ieeexplore.ieee.org/abstract/document/7976200},
   url={https://ieeexplore.ieee.org/abstract/document/7976200},
   doi={10.1109/PC.2017.7976200}}
 
@@ -683,6 +757,7 @@ pages = {139-148},
 year = {2017},
 issn = {0098-1354},
 doi = {https://doi.org/10.1016/j.compchemeng.2016.10.003},
+html = {https://www.sciencedirect.com/science/article/pii/S0098135416303192},
 url = {https://www.sciencedirect.com/science/article/pii/S0098135416303192},
 author = {Ján Drgoňa and Martin Klaučo and Filip Janeček and Michal Kvasnica},
 keywords = {Explicit predictive control, Optimization, Process control, Distillation},
@@ -702,6 +777,7 @@ number = {2},
 volume = {10},
 year = {2017},
 pages = {139--143},
+html={https://sciendo.com/it/article/10.1515/acs-2017-0023},
 url={https://sciendo.com/it/article/10.1515/acs-2017-0023}
 }
 
@@ -715,6 +791,7 @@ url={https://sciendo.com/it/article/10.1515/acs-2017-0023}
   year={2016},
   volume={},
   number={},
+  html={https://ieeexplore.ieee.org/abstract/document/7810514},
   pages={1568-1573},
   doi={10.1109/ECC.2016.7810514}}
 
@@ -730,6 +807,7 @@ year = {2016},
 note = {11th IFAC Symposium on Advances in Control Education ACE 2016},
 issn = {2405-8963},
 doi = {https://doi.org/10.1016/j.ifacol.2016.07.202},
+html = {https://www.sciencedirect.com/science/article/pii/S2405896316304086},
 url = {https://www.sciencedirect.com/science/article/pii/S2405896316304086},
 author = {Ayush Sharma and Ján Drgoňa and Deepak Ingole and Juraj Holaza and Richard Valo and Simon Koniar and Michal Kvasnica},
 keywords = {Laboratory education, distillation column, process control, PID and MPC},
@@ -745,8 +823,10 @@ Abs = {This paper deals with education of graduate and undergraduate students in
   year={2015},
   volume={},
   number={},
+  html={https://ieeexplore.ieee.org/document/7402396},
   pages={1334-1339},
-  doi={10.1109/CDC.2015.7402396}}
+  doi={10.1109/CDC.2015.7402396},
+  preview={CDC2015.PNG}
 
 
   @INPROCEEDINGS{7169989,
@@ -759,6 +839,7 @@ Abs = {This paper deals with education of graduate and undergraduate students in
   volume={},
   number={},
   pages={357-362},
+    html={https://ieeexplore.ieee.org/document/7169989},
   url={https://ieeexplore.ieee.org/document/7169989},
   doi={10.1109/PC.2015.7169989}}
 
@@ -775,6 +856,7 @@ year = {2014},
 note = {19th IFAC World Congress},
 issn = {1474-6670},
 doi = {https://doi.org/10.3182/20140824-6-ZA-1003.01633},
+html = {https://www.sciencedirect.com/science/article/pii/S1474667016416770},
 url = {https://www.sciencedirect.com/science/article/pii/S1474667016416770},
 author = {Martin Klaučo and Ján Drgoňa and Michal Kvasnica and Stefano Di Cairano},
 keywords = {Predictive control for linear systems, Energy systems, Regression},
@@ -791,6 +873,7 @@ Abs = {We show how to synthesize simple, yet well-performing feedback strategies
   volume={},
   number={},
   pages={1035-1040},
+    html={https://ieeexplore.ieee.org/document/6669341},
   url={https://ieeexplore.ieee.org/document/6669341},
   doi={10.23919/ECC.2013.6669341}}
 
@@ -804,6 +887,7 @@ Abs = {We show how to synthesize simple, yet well-performing feedback strategies
   volume={},
   number={},
   pages={6440-6445},
+    html={https://ieeexplore.ieee.org/abstract/document/6760908},
   url={https://ieeexplore.ieee.org/abstract/document/6760908},
   doi={10.1109/CDC.2013.6760908}}
 
@@ -818,53 +902,8 @@ Abs = {We show how to synthesize simple, yet well-performing feedback strategies
   volume={},
   number={},
   pages={401-406},
+    html={https://ieeexplore.ieee.org/document/6581444},
   url={https://ieeexplore.ieee.org/document/6581444},
   doi={10.1109/PC.2013.6581444}}
 
 
-# -----------------------------------------------------------------------------
-# template citations
-# -----------------------------------------------------------------------------
-
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}

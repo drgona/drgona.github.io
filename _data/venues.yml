@@ -1,6 +1,70 @@
-"AJP":
+"arXiv":
   url: https://aapt.scitation.org/journal/ajp
+  color: "#c60004"
+
+"B\&E":
+  url: https://www.sciencedirect.com/journal/building-and-environment
+  color: "#87CEEB"
+
+"ACM CS":
+  url: https://dl.acm.org/journal/csur
+
+"Chaos":
+  url: https://pubs.aip.org/aip/cha
+
+"IEEE OJCS":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8782664
+
+"JoPC":
+  url: https://www.sciencedirect.com/journal/journal-of-process-control
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ARC":
+  url: https://www.sciencedirect.com/journal/annual-reviews-in-control
+  color: "#00369f"
+
+"APEN":
+  url: https://www.sciencedirect.com/journal/applied-energy
+  color: "#87CEEB"
+
+"E\&B":
+  url: https://www.sciencedirect.com/journal/energy-and-buildings
+  color: "#87CEEB"
+
+"JoBPS":
+  url: https://www.tandfonline.com/toc/tbps20/current
+  color: "#87CEEB"
+
+"CACE":
+  url: https://www.sciencedirect.com/journal/computers-and-chemical-engineering
+  color: "#7f1832"
+
+"NeurIPS 2021":
+  url: https://nips.cc/Conferences/2021
+
+"IFAC":
+  url: https://www.sciencedirect.com/journal/ifac-papersonline
+  color: "#ffd700"
+
+"ACC 2023":
+  url: https://acc2023.a2c2.org/
+  color: "#e95d00"
+
+"ACC 2022":
+  url: https://acc2022.a2c2.org/
+  color: "#e95d00"
+
+"ACC 2021":
+  url: https://acc2021.a2c2.org/
+  color: "#e95d00"
+
+"CDC 2022":
+  url: https://cdc2022.ieeecss.org/index.html
+  color: "#e95d00"
+
+"ECC 2022":
+  url: https://ecc22.euca-ecc.org/index.html
+  color: "#e95d00"
+
+
+
