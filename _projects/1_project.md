@@ -141,6 +141,7 @@ For more information see the [open-source examples](https://github.com/pnnl/neur
 - [Madelyn Shapiro](https://www.linkedin.com/in/m-shapiro/)
 - Ethan King
 - [Stefan Dernbach](https://www.linkedin.com/in/sdernbach/)
+- [Soumya Vasisht](https://www.linkedin.com/in/m-shapiro/)
 - Zhao Chen
 - [Shrirang Abhyankar](https://www.linkedin.com/in/shrirang-abhyankar-59018144/)
 - [Robert Cameron Rutherford](https://www.linkedin.com/in/robert-c-rutherford/)
@@ -152,9 +153,6 @@ For more information see the [open-source examples](https://github.com/pnnl/neur
 - [Shimiao Li](https://www.linkedin.com/in/shimiao-li-305512226/) (Summer internship)
 - [Bo Tang](https://www.linkedin.com/in/lucas-bo-tang/) (Summer internship)
 - [James Kotary](https://j-kota.github.io/) (Summer internship)
-
-
-
 
 
 ## Acknowledgements
