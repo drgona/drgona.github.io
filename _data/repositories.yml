@@ -1,6 +1,7 @@
 github_repos:
   - pnnl/neuromancer
   - pnnl/deps_arXiv2020
+  - pnnl/slim
   - drgona/BeSim
 
 github_users:
