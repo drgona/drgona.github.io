@@ -5,7 +5,7 @@ description: Decision and Control of Complex Systems
 img: assets/img/3.jpg
 importance: 2
 category: work
-related_publications: 
+related_publications: 9993146, 9992386, DRGONA2022121, NEURIPS2021_c9dd73f5, AutoNF_2023, ns2023extreme, wang2023semisupervised
 ---
 
 
