@@ -1,8 +1,8 @@
-- title: 
-  type: map
-  contents:
-    - name: Full Name
-      value: Ján Drgoňa
+#- title: General information
+#  type: map
+#  contents:
+#    - name: Full Name
+#      value: Ján Drgoňa
 
 
 - title: Experience
