@@ -3,7 +3,7 @@ layout: page
 title: SciML for buildings
 description: Developing differentiable predictive control (DPC) as a market-ready technology for energy-efficient building control.
 img: assets/img/DPC_BTO_project.PNG
-importance: 2
+importance: 1
 category: applications
 related_publications: DRGONA202114, drgona2022learning, DRGONA2021110992, DRGONA202280, DrgonaDSCC2020, DRGONA2020190,
  NAGY2023110435, DONG2022109195, 10155901, 10156081, das2022machine, das2022machine, Blum2021, bs2021_30806

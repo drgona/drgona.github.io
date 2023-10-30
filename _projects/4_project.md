@@ -3,7 +3,7 @@ layout: page
 title: SciML for power systems
 description: Developing Scientific Machine Learning (SciML) methods for power system applications.
 img: assets/img/methodology_DED_DPC.png
-importance: 
+importance: 2
 category: applications
 related_publications: 10253098, Shimiao2023, KochChaos2023, li2023homotopy, 9867379
 ---
@@ -57,7 +57,7 @@ to learn a solution map from forecast system loads to a schedule of generation i
 </div>
 
 
-**Modeling networked dynamical systems:**  
+**Modeling networked dynamical systems:** 
 Networked dynamical systems are common in power systems, however, they are notoriously hard to model
 with purely data-driven approaches.
 In [our work](https://pubs.aip.org/aip/cha/article-abstract/33/2/023103/2875955/Structural-inference-of-networked-dynamical?redirectedFrom=fulltext), 
