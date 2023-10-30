@@ -4,5 +4,5 @@ github_repos:
   - pnnl/slim
   - drgona/BeSim
 
-#github_users:
-#  - drgona
+github_users:
+  - drgona
