@@ -65,7 +65,7 @@ For more details, see our [paper](https://www.sciencedirect.com/science/article/
 </div>
 
 
-### Team
+**Team:**  
 - **Ján Drgoňa** 
 - [Karol Kiš](https://www.linkedin.com/in/karol-kis-kk1/) (STU, Bratislava)
 - [Aaron Tuor](https://www.linkedin.com/in/aarontuor/)
@@ -121,7 +121,7 @@ developed by our team.
 </div>
 
 
-### Team
+**Team:**  
 - [Soumya Vasisht](https://www.linkedin.com/in/m-shapiro/)
 - [Wenceslao Shaw Cortez](https://shawcortez.wordpress.com/)
 - [Aaron Tuor](https://www.linkedin.com/in/aarontuor/)
@@ -161,7 +161,7 @@ and one in [Mujoco](https://mujoco.org/) to allow for a validation environment.
 *This is an active project by John Viljoen. Stay tuned for the updates.*
 
 
-### Team
+**Team:**  
 - [John Viljoen](https://www.linkedin.com/in/john-viljoen-763427150/) (UC Berkeley - Summer internship)
 - [Wenceslao Shaw Cortez](https://shawcortez.wordpress.com/)
 - [Draguna Vrabie](https://www.pnnl.gov/people/draguna-vrabie-phd) 
