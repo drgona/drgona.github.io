@@ -105,11 +105,11 @@ Battelle Memorial Institute under Contract No. DE-AC05-76RL0-1830.
 
 ## PNNL Team
 - **Ján Drgoňa** (PI)
-- [Aaron Tuor](https://www.linkedin.com/in/aarontuor/) (Co-PI)
+- [Shrirang Abhyankar](https://www.linkedin.com/in/shrirang-abhyankar-59018144/) (Co-PI)
+- [Aaron Tuor](https://www.linkedin.com/in/aarontuor/)
 - [James Koch](https://www.linkedin.com/in/james-koch-5285a87a/)
 - [Draguna Vrabie](https://www.pnnl.gov/people/draguna-vrabie-phd) 
 - Ethan King
-- [Shrirang Abhyankar](https://www.linkedin.com/in/shrirang-abhyankar-59018144/)
 - [Andrew August](https://www.linkedin.com/in/andrew-august/)
 - [Shimiao Li](https://www.linkedin.com/in/shimiao-li-305512226/) (CMU - Summer internship)
 

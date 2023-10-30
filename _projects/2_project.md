@@ -39,6 +39,21 @@ deployment enabling software will significantly advance BTO’s goals to reduce 
 </div>
 
 
+
+## Modeling building thermal dynamics
+
+TODO
+
+## Differentiable predictive control of building energy systems
+
+TODO
+
+
+## High fidelity simulation platform of building energy system
+
+TODO
+
+
 ## Open-source Software 
 
 The technology developed under this project is being open-sourced 

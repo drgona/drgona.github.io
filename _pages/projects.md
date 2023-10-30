@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: This is a portfolio of my active and past research projects.
+description: This is a portfolio of my active and past research projects primarily focused on Scientific Machine Learning (SciML).
 nav: true
 nav_order: 2
 display_categories: [methods and tools, applications]

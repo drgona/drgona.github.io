@@ -5,7 +5,7 @@ description: Developing scientific machine learning methods for modeling and con
 img: assets/img/publication_preview/NeurIPS_DMM.PNG
 importance: 2
 category: methods and tools
-related_publications: 9993146, 9992386, DRGONA2022121, NEURIPS2021_c9dd73f5, AutoNF_2023, ns2023extreme, wang2023semisupervised
+related_publications: 9993146, 9992386, DRGONA2022121, NEURIPS2021_c9dd73f5, AutoNF_2023, ns2023extreme, wang2023semisupervised, 9809789
 ---
 
 
@@ -58,8 +58,6 @@ or [neural state space models (SSMs)](https://ieeexplore.ieee.org/abstract/docum
 
 
 
-#### Highlighted Methods
-
 [**Neural Lyapunov Differentiable Predictive Control**](https://ieeexplore.ieee.org/abstract/document/9992386) 
 combines the principles of Lyapunov functions, model predictive control, 
 reinforcement learning, and differentiable programming to offer a 
@@ -98,6 +96,12 @@ in the forward pass is followed by backward pass computing direct policy gradien
 </div>
 
 
+
+## Stability analysis of deep neural models
+
+TODO
+
+
 ## Open-source Software 
 
 The technology developed under this project is being open-sourced 
@@ -116,7 +120,7 @@ as part of the Neuromancer Scientific Machine Learning (SciML) library developed
 
 
 ## Acknowledgements
-This project is supported through the U.S. Department of Energy (DOE), 
+This project was supported through the U.S. Department of Energy (DOE), 
 through the Office of Advanced Scientific Computing Research's 
 “Data-Driven Decision Control for Complex Systems (DnC2S)” project.
 PNNL is a multi-program national laboratory operated for the U.S. DOE
