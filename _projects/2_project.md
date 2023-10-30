@@ -42,16 +42,91 @@ deployment enabling software will significantly advance BTO’s goals to reduce 
 
 ### Modeling building thermal dynamics
 
-TODO
+Energy-efficient buildings are one of the top priorities to sustainably address the global energy demands and reduction 
+of the CO2 emissions. It has been demonstrated that advanced building control, 
+like [model predictive control](https://en.wikipedia.org/wiki/Model_predictive_control) (MPC) 
+or [deep reinforcement learning](https://en.wikipedia.org/wiki/Deep_reinforcement_learning) (DRL), 
+can notably reduce the energy use and mitigate greenhouse gas emissions. 
+However, in order for these advanced control methods to work in practice, they heavily rely on accurate 
+prediction models of building thermal dynamics.
+
+To address this, our team has developed a family of control-oriented 
+physics-constrained deep learning models of building thermal dynamics. 
+Specifically, our method incorporates structural prior knowledge from traditional physics-based building modeling 
+into the architecture of the deep neural network model. Further, we also use penalty methods to enforce 
+inequality constraints, thereby bounding predictions within physically realistic and safe operating ranges. 
+We show that using only 10 days’ measurements for training, our method is capable of generalizing over 
+20 consecutive days. We demonstrate that the proposed modeling methodology is achieving state-of-the-art 
+performance by significantly improving the accuracy and generalization compared to classical system identification 
+methods and prior advanced methods reported in the literature. compared to prior state-of-the-art 
+methods reported in the literature.
+For more information read [our paper](https://www.sciencedirect.com/science/article/pii/S0378778821002760).
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/NSSM_building.jpg" title="nssm" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Generic structure of physics-inspired neural dynamics model architecture. Weights of individual neural blocks 
+ are parametrized by linear maps with constrained eigenvalues to enforce the energy dissipativity property of the modeled system.
+</div>
+
+
 
 ### Differentiable predictive control of building energy systems
 
-TODO
+Despite intensive research efforts, the practical applications 
+of advanced control methods such as MPC and DRL are still in the early stages. 
+One of these challenges is the complexity of designing and deploying the optimal control policies 
+in the current predominantly rule-based building automation systems.
+
+To address this limitation, our team has developed novel methodology 
+called [differentiable predictive control (DPC)](https://www.sciencedirect.com/science/article/pii/S0959152422000981) 
+for learning constrained control 
+policies for dynamical systems subject to operational and safety constraints.
+DPC presents a novel data-driven policy optimization algorithm that combines the benefits of 
+both worlds, data-driven adaptive nature of DRL, and model-based performance and safety guarantees of MPC.
+We have demonstrated the proposed DPC method in a high fidelity simulation environment 
+using learned model of multi-zone building thermal dynamics.
+For more information read [our paper](https://www.sciencedirect.com/science/article/pii/S2405896321012933).
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/DPC_building.png" title="dpc building" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+   Conceptual overview of Differentiable Predictive Control (DPC) methodology for buidling control. 
+Step 1: physics-constrained system identification of the building thermal dynamics.  
+Step 2: Learning neural control policies in closed-loop simulations with differentiable system dynamics model and MPC constraints.
+</div>
+
 
 
 ### High fidelity simulation platform of building energy system
 
-TODO
+Development of new building HVAC control algorithms has grown due to needs for energy efficiency and operational flexibility. 
+However, case studies demonstrating new algorithms are largely individualized, making algorithm performance difficult 
+to compare directly. In addition, the effort and expertise required to implement case studies in real or simulated buildings 
+limits rapid prototyping potential. 
+To address this issue, our team has been co-developing a high fidelity building simulation framework for performance benchmarking
+of modern control methods. This multi-institution project called  Building Optimization Testing Framework (BOPTEST)
+was recognized with the [best paper award](https://www.tandfonline.com/doi/full/10.1080/19401493.2021.1986574)
+issued by the Journal of Building Performance Simulation.
+For more information visit the [project website](https://ibpsa.github.io/project1-boptest/).
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/publication_preview/BOPTEST.PNG" title="boptest" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+Conceptual overview of the BOPTEST framework designed to facilitate the performance evaluation and benchmarking 
+of advanced building control strategies.
+</div>
+
 
 
 ## Open-source Software 
