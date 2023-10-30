@@ -40,16 +40,16 @@ deployment enabling software will significantly advance BTO’s goals to reduce 
 
 
 
-## Modeling building thermal dynamics
+### Modeling building thermal dynamics
 
 TODO
 
-## Differentiable predictive control of building energy systems
+### Differentiable predictive control of building energy systems
 
 TODO
 
 
-## High fidelity simulation platform of building energy system
+### High fidelity simulation platform of building energy system
 
 TODO
 
