@@ -111,7 +111,7 @@ Battelle Memorial Institute under Contract No. DE-AC05-76RL0-1830.
 - Ethan King
 - [Shrirang Abhyankar](https://www.linkedin.com/in/shrirang-abhyankar-59018144/)
 - [Andrew August](https://www.linkedin.com/in/andrew-august/)
-- [Shimiao Li](https://www.linkedin.com/in/shimiao-li-305512226/) (Summer internship)
+- [Shimiao Li](https://www.linkedin.com/in/shimiao-li-305512226/) (CMU - Summer internship)
 
 
 

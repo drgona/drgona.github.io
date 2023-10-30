@@ -147,12 +147,12 @@ For more information see the [open-source examples](https://github.com/pnnl/neur
 - [Robert Cameron Rutherford](https://www.linkedin.com/in/robert-c-rutherford/)
 - Mia Skomski
 - [Difan (张迪凡) Zhang](https://www.linkedin.com/in/difan-zhang-32a167163/)
-- [Rafsan Rabbi](https://www.linkedin.com/in/rafsanrabbi/) (Summer internship)
-- [Ethan Herron](https://www.linkedin.com/in/ethan-herron-9218a1171/) (Summer internship)
-- [Christian Møldrup Legaard](https://www.linkedin.com/in/christian-moeldrup-legaard/?originalSubdomain=dk) (Summer internship)
-- [Shimiao Li](https://www.linkedin.com/in/shimiao-li-305512226/) (Summer internship)
-- [Bo Tang](https://www.linkedin.com/in/lucas-bo-tang/) (Summer internship)
-- [James Kotary](https://j-kota.github.io/) (Summer internship)
+- [Rafsan Rabbi](https://www.linkedin.com/in/rafsanrabbi/) (Utah State - Summer internship)
+- [Ethan Herron](https://www.linkedin.com/in/ethan-herron-9218a1171/) (Iowa State - Summer internship)
+- [Christian Møldrup Legaard](https://www.linkedin.com/in/christian-moeldrup-legaard/?originalSubdomain=dk) (Aarhus University - Summer internship)
+- [Shimiao Li](https://www.linkedin.com/in/shimiao-li-305512226/) (CMU - Summer internship)
+- [Bo Tang](https://www.linkedin.com/in/lucas-bo-tang/) (UToronto - Summer internship)
+- [James Kotary](https://j-kota.github.io/) (UVA - Summer internship)
 
 
 ## Acknowledgements
