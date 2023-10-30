@@ -40,7 +40,7 @@ deployment enabling software will significantly advance BTO’s goals to reduce 
 
 
 
-### Modeling building thermal dynamics
+### Modeling building thermal dynamics with SciML
 
 Energy-efficient buildings are one of the top priorities to sustainably address the global energy demands and reduction 
 of the CO2 emissions. It has been demonstrated that advanced building control, 
@@ -50,12 +50,12 @@ can notably reduce the energy use and mitigate greenhouse gas emissions.
 However, in order for these advanced control methods to work in practice, they heavily rely on accurate 
 prediction models of building thermal dynamics.
 
-To address this, our team has developed a family of control-oriented 
-physics-constrained deep learning models of building thermal dynamics. 
+To address this, our team has developed novel scientific machine learning (SciML) method for control-oriented 
+modeling of building thermal dynamics. 
 Specifically, our method incorporates structural prior knowledge from traditional physics-based building modeling 
 into the architecture of the deep neural network model. Further, we also use penalty methods to enforce 
 inequality constraints, thereby bounding predictions within physically realistic and safe operating ranges. 
-We show that using only 10 days’ measurements for training, our method is capable of generalizing over 
+We show that using only 10 days’ measurements for training, our method is capable of generalizing over 
 20 consecutive days. We demonstrate that the proposed modeling methodology is achieving state-of-the-art 
 performance by significantly improving the accuracy and generalization compared to classical system identification 
 methods and prior advanced methods reported in the literature. compared to prior state-of-the-art 
@@ -105,7 +105,7 @@ Step 2: Learning neural control policies in closed-loop simulations with differe
 
 
 
-### High fidelity simulation platform of building energy system
+### High fidelity simulation platform of building energy systems
 
 Development of new building HVAC control algorithms has grown due to needs for energy efficiency and operational flexibility. 
 However, case studies demonstrating new algorithms are largely individualized, making algorithm performance difficult 
