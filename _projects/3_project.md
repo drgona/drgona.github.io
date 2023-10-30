@@ -117,7 +117,7 @@ We make connections between the spectral properties of neural network's weights 
 different types of used activation function on the stability and overall dynamic behavior of these type of models.
 Based on the theory, we propose a few practical methods for designing constrained neural dynamical models with guaranteed stability. 
 
-**Dissipative neural dynamical systems** 
+**Dissipative neural dynamical systems:** 
 For more information read the [paper](https://ieeexplore.ieee.org/abstract/document/9809789) 
 
 <div class="row">
@@ -130,7 +130,7 @@ Phase portraits of deep neural dynamical system models with different stability 
 eigenvalue spectra.    Colors represent different initial conditions.
 </div>
 
-**Stable deep markov models** 
+**Stable deep markov models:** 
 For more information read the [paper](https://proceedings.neurips.cc/paper/2021/hash/c9dd73f5cb96486f5e1e0680e841a550-Abstract.html).
 
 <div class="row">
