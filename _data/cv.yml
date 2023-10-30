@@ -1,4 +1,4 @@
-- title: General Information
+- title: 
   type: map
   contents:
     - name: Full Name
@@ -9,16 +9,16 @@
   type: time_table
   contents:
     - title: Data Scientist 4
-      institution: [Pacific Northwest National Laboratory](https://www.pnnl.gov/)
+      institution: Pacific Northwest National Laboratory
       year: July 2023 - present
       description: Leading a team of research scientists working on differentiable programming methods for modeling and control of dynamical systems with applications in energy.
 
     - title: Data Scientist 3
-      institution: [Pacific Northwest National Laboratory](https://www.pnnl.gov/)
+      institution: Pacific Northwest National Laboratory
       year: Jan 2022 - July 2023
 
     - title: Data Scientist 2
-      institution: [Pacific Northwest National Laboratory](https://www.pnnl.gov/)
+      institution: Pacific Northwest National Laboratory
       year: May 2020 - Dec 2021
 
     - title: Core team member
@@ -27,7 +27,7 @@
       description: Climate Change AI is a global non-profit that catalyzes impactful work at the intersection of climate change and machine learning.
 
     - title: Postdoctoral researcher
-      institution: [Pacific Northwest National Laboratory](https://www.pnnl.gov/)
+      institution: Pacific Northwest National Laboratory
       year: Jul 2019 - Apr 2020
 
     - title: Postdoctoral researcher
