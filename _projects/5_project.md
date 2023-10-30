@@ -2,7 +2,7 @@
 layout: page
 title: SciML for robotics
 description: Developing Scientific Machine Learning (SciML) methods for robotics applications.
-img: assets/img/iver.png
+img: assets/img/iver_DPC1.png
 importance: 3
 category: applications
 related_publications: CORTEZ2023228, DRGONA202280

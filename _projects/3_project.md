@@ -99,7 +99,51 @@ in the forward pass is followed by backward pass computing direct policy gradien
 
 ## Stability analysis of deep neural models
 
-TODO
+
+In recent years, deep neural networks (DNN) have become
+ever more integrated into safety-critical and high-performance
+systems, including robotics, autonomous driving, and process control, where formal verification methods are desired
+to ensure safe operation.
+Stability is one of the properties of dynamical systems with paramount importance for
+safety-verified control systems applications.
+To address these issues we provided sufficient conditions for 
+i) [dissipativity](https://ieeexplore.ieee.org/abstract/document/9809789) 
+and ii) [stochastic stability](https://proceedings.neurips.cc/paper/2021/hash/c9dd73f5cb96486f5e1e0680e841a550-Abstract.html) 
+of discrete-time dynamical systems  parametrized  by DNNs. 
+To do so we leverage the representation of neural networks as pointwise affine maps, 
+thus exposing their local linear operators and making them accessible to classical system analytic and design methods. 
+This allows us to “crack open the black box” of the neural dynamical system’s behavior. 
+We make connections between the spectral properties of neural network's weights and 
+different types of used activation function on the stability and overall dynamic behavior of these type of models.
+Based on the theory, we propose a few practical methods for designing constrained neural dynamical models with guaranteed stability. 
+
+**Dissipative neural dynamical systems** 
+For more information read the [paper](https://ieeexplore.ieee.org/abstract/document/9809789) 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/DNN_stability.PNG" title="DNN" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+Phase portraits of deep neural dynamical system models with different stability properties and their associated 
+eigenvalue spectra.    Colors represent different initial conditions.
+</div>
+
+**Stable deep markov models** 
+For more information read the [paper](https://proceedings.neurips.cc/paper/2021/hash/c9dd73f5cb96486f5e1e0680e841a550-Abstract.html).
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/DMM_stability.PNG" title="DMM" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+Phase portraits of stochastic neural dynamical system models with different stochastic stability properties.
+    Thin lines are samples of the stochastic
+dynamics with bold lines representing mean trajectories. Colors represent different initial conditions.
+</div>
+
 
 
 ## Open-source Software 
