@@ -41,7 +41,7 @@ The developed methods can be used in conjunction with any learning-based control
 such as deep reinforcement learning control policy.
 In our case we have focused on the extensions of promissing offline model-based 
 policy optimization approach called 
-[differentiable predictive control (DPC)](https://www.sciencedirect.com/science/article/pii/S0959152422000981) (DPC).
+[differentiable predictive control](https://www.sciencedirect.com/science/article/pii/S0959152422000981) (DPC).
 
 DPC is a modern SciML method that bring the benefits of both worlds.
 It combines model-based interpretability, constraints handling, and performance guarantees of 
