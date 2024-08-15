@@ -132,27 +132,29 @@ boundary conditions, and parametric control tasks such as time-varying reference
 For more information see the [open-source examples](https://github.com/pnnl/neuromancer/tree/master/examples/control)
 
 
-
-## PNNL Team
+## Active Core Developers Team
 - **Ján Drgoňa** (PI)
+- [Rahul Birmiwal](https://www.linkedin.com/in/rahul-birmiwal009/) 
+- [Bruno Jacob](https://brunopjacob.github.io/)
+- [Draguna Vrabie](https://www.pnnl.gov/people/draguna-vrabie-phd) (Main Scientific Advisor)
+
+
+### Contributors and Collaborators
 - [Aaron Tuor](https://www.linkedin.com/in/aarontuor/) (Co-PI)
-- [James Koch](https://www.linkedin.com/in/james-koch-5285a87a/)
-- [Draguna Vrabie](https://www.pnnl.gov/people/draguna-vrabie-phd) 
 - [Madelyn Shapiro](https://www.linkedin.com/in/m-shapiro/)
+- [James Koch](https://www.linkedin.com/in/james-koch-5285a87a/)
+- [Cary Faulkner](https://www.linkedin.com/in/cary-faulkner/)
 - Ethan King
-- [Stefan Dernbach](https://www.linkedin.com/in/sdernbach/)
-- [Soumya Vasisht](https://www.linkedin.com/in/m-shapiro/)
 - Zhao Chen
 - [Shrirang Abhyankar](https://www.linkedin.com/in/shrirang-abhyankar-59018144/)
-- [Robert Cameron Rutherford](https://www.linkedin.com/in/robert-c-rutherford/)
 - Mia Skomski
-- [Difan (张迪凡) Zhang](https://www.linkedin.com/in/difan-zhang-32a167163/)
-- [Rafsan Rabbi](https://www.linkedin.com/in/rafsanrabbi/) (Utah State - Summer internship)
-- [Ethan Herron](https://www.linkedin.com/in/ethan-herron-9218a1171/) (Iowa State - Summer internship)
 - [Christian Møldrup Legaard](https://www.linkedin.com/in/christian-moeldrup-legaard/?originalSubdomain=dk) (Aarhus University - Summer internship)
-- [Shimiao Li](https://www.linkedin.com/in/shimiao-li-305512226/) (CMU - Summer internship)
 - [Bo Tang](https://www.linkedin.com/in/lucas-bo-tang/) (UToronto - Summer internship)
 - [James Kotary](https://j-kota.github.io/) (UVA - Summer internship)
+- [Cody Beck](https://www.linkedin.com/in/cody-beck-nau/) (NAU - Summer internship)
+- [Nandan Tumu](https://nandantumu.com/) (UPenn - Summer internship)
+- Seth Britney (WWU - Summer internship)
+
 
 
 ## Acknowledgements
