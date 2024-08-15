@@ -20,7 +20,7 @@
     url={https://ojs.aaai.org/index.php/AAAI/article/view/29498},
     html={https://ojs.aaai.org/index.php/AAAI/article/view/29498},
     DOI={10.1609/aaai.v38i14.29498},
-    abstractNote={Modeling dynamical systems is crucial for a wide range of tasks, but it remains challenging due to complex nonlinear dynamics, limited observations, or lack of prior knowledge. Recently, data-driven approaches such as Neural Ordinary Differential Equations (NODE) have shown promising results by leveraging the expressive power of neural networks to model unknown dynamics. However, these approaches often suffer from limited labeled training data, leading to poor generalization and suboptimal predictions. On the other hand, semi-supervised algorithms can utilize abundant unlabeled data and have demonstrated good performance in classification and regression tasks.
+    abstract={Modeling dynamical systems is crucial for a wide range of tasks, but it remains challenging due to complex nonlinear dynamics, limited observations, or lack of prior knowledge. Recently, data-driven approaches such as Neural Ordinary Differential Equations (NODE) have shown promising results by leveraging the expressive power of neural networks to model unknown dynamics. However, these approaches often suffer from limited labeled training data, leading to poor generalization and suboptimal predictions. On the other hand, semi-supervised algorithms can utilize abundant unlabeled data and have demonstrated good performance in classification and regression tasks.
     We propose TS-NODE, the first semi-supervised approach to modeling dynamical systems with NODE. TS-NODE explores cheaply generated synthetic pseudo rollouts to broaden exploration in the state space and to tackle the challenges brought by lack of ground-truth system data under a teacher-student model. TS-NODE employs an unified optimization framework that corrects the teacher model based on the student’s feedback while mitigating the potential false system dynamics present in pseudo rollouts.
     TS-NODE demonstrates significant performance improvements over a baseline Neural ODE model on multiple dynamical system modeling tasks.}, number={14}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={Wang, Yu and Yin, Yuxuan and NS, Karthik Somayaji and Drgoňa, Ján and Schram, Malachi and Halappanavar, Mahantesh and Liu, Frank and Li, Peng},
     year={2024},
@@ -29,15 +29,18 @@
     pages={15698-15705}
 }
 
-@misc{ns2023extreme,
-      abbr={arXiv},
-      bibtex_show={true},
-      title={Extreme Risk Mitigation in Reinforcement Learning using Extreme Value Theory},
-      author={Karthik Somayaji NS and Yu Wang and Malachi Schram and Ján Drgoňa and Mahantesh Halappanavar and Frank Liu and Peng Li},
-      year={2023},
-      eprint={2308.13011},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@article{ns2024extreme,
+    abbr={TMLR},
+    bibtex_show={true},
+    title={Extreme Risk Mitigation in Reinforcement Learning using Extreme Value Theory},
+    author={Karthik Somayaji NS and Yu Wang and Malachi Schram and Jan Drgona and Mahantesh M Halappanavar and Frank Liu and Peng Li},
+    journal={Transactions on Machine Learning Research},
+    abstract={Risk-sensitive reinforcement learning (RL) has garnered significant attention in recent years due to the growing interest in deploying RL agents in real-world scenarios. A critical aspect of risk awareness involves modelling highly rare risk events (rewards) that could potentially lead to catastrophic outcomes. These infrequent occurrences present a formidable challenge for data-driven methods aiming to capture such risky events accurately. While risk-aware RL techniques do exist, they suffer from high variance estimation due to the inherent data scarcity. Our work proposes to enhance the resilience of RL agents when faced with very rare and risky events by focusing on refining the predictions of the extreme values predicted by the state-action value distribution. To achieve this, we formulate the extreme values of the state-action value function distribution as parameterized distributions, drawing inspiration from the principles of extreme value theory (EVT). We propose an extreme value theory based actor-critic approach, namely, Extreme Valued Actor-Critic (EVAC) which effectively addresses the issue of infrequent occurrence by leveraging EVT-based parameterization. Importantly, we theoretically demonstrate the advantages of employing these parameterized distributions in contrast to other risk-averse algorithms. Our evaluations show that the proposed method outperforms other risk averse RL algorithms on a diverse range of benchmark tasks, each encompassing distinct risk scenarios.}
+    issn={2835-8856},
+    year={2024},
+    html={https://openreview.net/forum?id=098mb06uhA},
+    preview={extreme_value_RL.PNG},
+
 }
 
 @INPROCEEDINGS{10253098,
@@ -63,7 +66,7 @@
     volume={37},
     url={https://ojs.aaai.org/index.php/AAAI/article/view/26220},
     DOI={10.1609/aaai.v37i8.26220},
-    abstractNote={Normalizing flows (NF) build upon invertible neural networks and have wide applications in probabilistic modeling. Currently, building a powerful yet computationally efficient flow model relies on empirical fine-tuning over a large design space. While introducing neural architecture search (NAS) to NF is desirable, the invertibility constraint of NF brings new challenges to existing NAS methods whose application is limited to unstructured neural networks. Developing efficient NAS methods specifically for NF remains an open problem. We present AutoNF, the first automated NF architectural optimization framework. First, we present a new mixture distribution formulation that allows efficient differentiable architecture search of flow models without violating the invertibility constraint. Second, under the new formulation, we convert the original NP-hard combinatorial NF architectural optimization problem to an unconstrained continuous relaxation admitting the discrete optimal architectural solution, circumventing the loss of optimality due to binarization in architectural optimization. We evaluate AutoNF with various density estimation datasets and show its superior performance-cost trade-offs over a set of existing hand-crafted baselines.},
+    abstract={Normalizing flows (NF) build upon invertible neural networks and have wide applications in probabilistic modeling. Currently, building a powerful yet computationally efficient flow model relies on empirical fine-tuning over a large design space. While introducing neural architecture search (NAS) to NF is desirable, the invertibility constraint of NF brings new challenges to existing NAS methods whose application is limited to unstructured neural networks. Developing efficient NAS methods specifically for NF remains an open problem. We present AutoNF, the first automated NF architectural optimization framework. First, we present a new mixture distribution formulation that allows efficient differentiable architecture search of flow models without violating the invertibility constraint. Second, under the new formulation, we convert the original NP-hard combinatorial NF architectural optimization problem to an unconstrained continuous relaxation admitting the discrete optimal architectural solution, circumventing the loss of optimality due to binarization in architectural optimization. We evaluate AutoNF with various density estimation datasets and show its superior performance-cost trade-offs over a set of existing hand-crafted baselines.},
     number={8},
     journal={Proceedings of the AAAI Conference on Artificial Intelligence},
     author={Wang, Yu and Drgoňa, Ján and Zhang, Jiaxin and Nanjangud Suryanarayana, Karthik Somayaji and Schram, Malachi and Liu, Frank and Li, Peng},
