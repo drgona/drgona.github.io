@@ -1,6 +1,24 @@
 ---
 ---
 
+@ARTICLE{Drgona2024_DPC,
+    abbr={IEEE},
+    bibtex_show={true},
+    author={Drgoňa, Ján and Tuor, Aaron and Vrabie, Draguna},
+    journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+    title={Learning Constrained Parametric Differentiable Predictive Control Policies With Guarantees},
+    year={2024},
+    volume={54},
+    number={6},
+    pages={3596-3607},
+    preview={DPC_original.PNG},
+    code={https://github.com/pnnl/deps_arXiv2020},
+    abstract={We present differentiable predictive control (DPC), a method for offline learning of constrained neural control policies for nonlinear dynamical systems with performance guarantees. We show that the sensitivities of the parametric optimal control problem can be used to obtain direct policy gradients. Specifically, we employ automatic differentiation (AD) to efficiently compute the sensitivities of the model predictive control (MPC) objective function and constraints penalties. To guarantee safety upon deployment, we derive probabilistic guarantees on closed-loop stability and constraint satisfaction based on indicator functions and Hoeffding’s inequality. We empirically demonstrate that the proposed method can learn neural control policies for various parametric optimal control tasks. In particular, we show that the proposed DPC method can stabilize systems with unstable dynamics, track time-varying references, and satisfy nonlinear state and input constraints. Our DPC method has practical time savings compared to alternative approaches for fast and memory-efficient controller design. Specifically, DPC does not depend on a supervisory controller as opposed to approximate MPC based on imitation learning. We demonstrate that, without losing performance, DPC is scalable with greatly reduced demands on memory and computation compared to implicit and explicit MPC while being more sample efficient than model-free reinforcement learning (RL) algorithms.},
+    keywords={Predictive control;Optimization;Computational modeling;Programming;Sensitivity;Optimal control;Closed loop systems;Differentiable programming;learning for control;parametric optimal control;policy optimization (PO)},
+    doi={10.1109/TSMC.2024.3368026}
+}
+
+
 @article{YANG2024100346,
 abbr={E&AI},
 bibtex_show={true},
