@@ -18,8 +18,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Principal Investigator (PI) and Research Data Scientist at PNNL. 
-My current project portfolio is focused on 
+I am an incoming associate professor in the [Department of Civil and Systems Engineering 
+at Johns Hopkins University (JHU)](https://engineering.jhu.edu/case/).
+In addition, I am affiliated with the [Ralph S. O’Connor Sustainable Energy Institute (ROSEI)](https://energyinstitute.jhu.edu/), 
+which is dedicated to energy research and the development of educational programs at JHU.
+
+Currently, I serve as a Principal Investigator (PI) and Research Data Scientist at PNNL. 
+My project portfolio is focused on 
 [differentiable programming](https://en.wikipedia.org/wiki/Differentiable_programming) and [scientific
 machine learning](https://www.osti.gov/biblio/1478744/) (SciML) 
 for dynamical systems, constrained optimization, and control.
