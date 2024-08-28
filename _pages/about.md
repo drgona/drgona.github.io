@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an incoming associate professor in the [Department of Civil and Systems Engineering](https://engineering.jhu.edu/case/).
+I am an incoming associate professor in the [Department of Civil and Systems Engineering](https://engineering.jhu.edu/case/)
 and the [Ralph S. O’Connor Sustainable Energy Institute (ROSEI)](https://energyinstitute.jhu.edu/) at Johns Hopkins University (JHU).
 
 Currently, I serve as a Principal Investigator (PI) and Research Data Scientist at PNNL. 
