@@ -6,5 +6,5 @@ related_posts: false
 ---
 
 
-I have a talk at The Seventh Workshop on Autonomous Energy Systems organized by 
+I have a talk at the Seventh Workshop on Autonomous Energy Systems organized by 
 the National Renewable Energy Laboratory (NREL) in Golden, CO.
