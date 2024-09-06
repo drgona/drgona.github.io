@@ -167,9 +167,9 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  research:
+  projects:
     output: true
-    permalink: /research/:path/
+    permalink: /projects/:path/
 
 announcements:
   enabled: true
