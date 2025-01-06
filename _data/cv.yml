@@ -9,13 +9,12 @@
   type: time_table
   contents:
     - title: Associate Professor
-    - institution: Johns Hopkins University
-    - year: January 2025 - present
-    - description:
+      institution: Johns Hopkins University
+      year: January 2025 - present
 
     - title: Data Scientist 4
       institution: Pacific Northwest National Laboratory
-      year: July 2023 - December 2024
+      year: July 2023 - Dec 2024
       description: Leading a team of research scientists working on differentiable programming methods for modeling and control of dynamical systems with applications in energy.
 
     - title: Data Scientist 3
@@ -48,31 +47,31 @@
       year: Sept 2012 - Aug 2017
 
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2023
-      items:
-        - Pathway to Excellence Performance Award at PNNL
-        - Best paper award Building and Environment Journal
-    - year: 2022
-      items:
-        - Most cited paper in Annual Reviews in Control
-    - year: 2021
-      items:
-        - Pathway to Excellence Performance Award at PNNL
-        - Best paper award Journal of Building Performance Simulation
-    - year: 2020
-      items:
-        - Pathway to Excellence Performance Award at PNNL
-        - Best paper award Dynamic Systems and Control Conference
-    - year: 2017
-      items:
-        - Summa cum laude, PhD, Slovak University of Technology in Bratislava
-        - The National Scholarship Programme of the Slovak Republic
-    - year: 2017
-      items:
-        - European Union’s Erasmus Mundus Scholarship
+#- title: Honors and Awards
+#  type: time_table
+#  contents:
+#    - year: 2023
+#      items:
+#        - Pathway to Excellence Performance Award at PNNL
+#        - Best paper award Building and Environment Journal
+#    - year: 2022
+#      items:
+#        - Most cited paper in Annual Reviews in Control
+#    - year: 2021
+#      items:
+#        - Pathway to Excellence Performance Award at PNNL
+#        - Best paper award Journal of Building Performance Simulation
+#    - year: 2020
+#      items:
+#        - Pathway to Excellence Performance Award at PNNL
+#        - Best paper award Dynamic Systems and Control Conference
+#    - year: 2017
+#      items:
+#        - Summa cum laude, PhD, Slovak University of Technology in Bratislava
+#        - The National Scholarship Programme of the Slovak Republic
+#    - year: 2017
+#      items:
+#        - European Union’s Erasmus Mundus Scholarship
 
 
 - title: Other Interests
