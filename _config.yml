@@ -69,7 +69,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: drgona # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: jan_drgona # your Twitter handle
+#twitter_username: jan_drgona # your Twitter handle
+x_username: jan_drgona # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: drgona # your LinkedIn user name
 telegram_username: # your Telegram user name
@@ -85,7 +86,7 @@ osf_id: # your OSF ID
 research_gate_profile:  # your profile on ResearchGate
 scopus_id: # your profile on Scopus
 blogger_url: # your blogger URL
-work_url: https://www.pnnl.gov/people/jan-drgona # work page URL
+work_url: https://engineering.jhu.edu/faculty/jan-drgona/ # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)

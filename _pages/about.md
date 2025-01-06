@@ -18,15 +18,20 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an incoming associate professor in the [Department of Civil and Systems Engineering](https://engineering.jhu.edu/case/)
+I am an associate professor in the [Department of Civil and Systems Engineering](https://engineering.jhu.edu/case/)
 and the [Ralph S. O’Connor Sustainable Energy Institute (ROSEI)](https://energyinstitute.jhu.edu/) at Johns Hopkins University (JHU).
 
-Currently, I serve as a Principal Investigator (PI) and Research Data Scientist at PNNL. 
+Previously, I was as a research data scientist at the Pacific Northwest National Laboratory (PNNL), and
+a postdoc at KU Leuven in Belgium. I have a PhD in process control from Slovak University of Technology in Slovakia.
+
+
 My project portfolio is focused on 
 [differentiable programming](https://en.wikipedia.org/wiki/Differentiable_programming) and [scientific
 machine learning](https://www.osti.gov/biblio/1478744/) (SciML) 
-for dynamical systems, constrained optimization, and control.
-I have developed technology roadmaps that contributed to the acquisition of 
+for dynamical systems, constrained optimization, and control with applications
+to sustainable energy systems.
+
+While at PNNL, I have developed technology roadmaps that contributed to the acquisition of 
 a $20M project portfolio funded by the U.S. Department of Energy (DOE).
 
 I am a lead software developer of [Neuromancer SciML library in PyTorch](https://github.com/pnnl/neuromancer) 
