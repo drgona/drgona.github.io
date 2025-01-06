@@ -31,9 +31,6 @@ machine learning](https://www.osti.gov/biblio/1478744/) (SciML)
 for dynamical systems, constrained optimization, and control with applications
 to sustainable energy systems.
 
-While at PNNL, I have developed technology roadmaps that contributed to the acquisition of 
-a $20M project portfolio funded by the U.S. Department of Energy (DOE).
-
 I am a lead software developer of [Neuromancer SciML library in PyTorch](https://github.com/pnnl/neuromancer) 
 for solving constrained optimization, physics-informed machine learning, and optimal control problems. 
 Within two years, our library became the most popular open-source repository released by [PNNL](https://github.com/pnnl).

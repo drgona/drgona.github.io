@@ -8,9 +8,14 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Associate Professor
+    - institution: Johns Hopkins University
+    - year: January 2025 - present
+    - description:
+
     - title: Data Scientist 4
       institution: Pacific Northwest National Laboratory
-      year: July 2023 - present
+      year: July 2023 - December 2024
       description: Leading a team of research scientists working on differentiable programming methods for modeling and control of dynamical systems with applications in energy.
 
     - title: Data Scientist 3
