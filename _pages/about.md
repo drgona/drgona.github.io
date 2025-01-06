@@ -2,15 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: Staff-level Research Scientist, Pacific Northwest National Laboratory (PNNL)
+subtitle: 
 
 profile:
   align: right
   image: Drgona4WEB.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>902 Battelle Blvd </p>
-    <p>Richland, WA 99352</p>
+    <p>3400 N Charles St,  </p>
+    <p>Baltimore, MD 21218 </p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
