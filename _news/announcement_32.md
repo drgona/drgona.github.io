@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 
-I gave a virtual talk at the [Digital Twin Lab Virtual Workshop](https://tamids.tamu.edu/event/neuromancer/) organized by the TEXAS A&M Institute of Data Science.
+I gave a virtual talk at the [Digital Twin Lab Virtual Workshop](https://tamids.tamu.edu/event/neuromancer/) organized by the Texas A&M Institute of Data Science.
