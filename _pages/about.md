@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 I am an associate professor in the [Department of Civil and Systems Engineering](https://engineering.jhu.edu/case/)
 and the [Ralph S. O’Connor Sustainable Energy Institute (ROSEI)](https://energyinstitute.jhu.edu/) at Johns Hopkins University (JHU).
 
-Previously, I was as a research data scientist at the Pacific Northwest National Laboratory (PNNL), and
+Previously, I was a research data scientist at the Pacific Northwest National Laboratory (PNNL), and
 a postdoc at KU Leuven in Belgium. I have a PhD in process control from Slovak University of Technology in Slovakia.
 
 
