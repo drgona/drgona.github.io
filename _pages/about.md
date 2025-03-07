@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: Drgona4WEB.jpg
+  image: Drgona_Headshot.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>3400 N Charles St,  </p>
