@@ -40,8 +40,13 @@ body.sticky-bottom-footer {
  * Publications
  ******************************************************************************/
 
-// TODO: redefine publications layout.
-
+// Target figures in the publications tab
+.publications .publication-figure img {
+  max-width: 120%; /* Enlarge the image */
+  height: auto;    /* Maintain aspect ratio */
+  display: block;  /* Fix inline spacing issues */
+  margin: 0 auto;  /* Center the image */
+}
 
 /*****************************************************************************
 * Projects
