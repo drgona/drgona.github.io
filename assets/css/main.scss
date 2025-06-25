@@ -18,3 +18,7 @@ $max-content-width: {{ site.max_width }};
   "font-awesome/solid",
   "font-awesome/regular"
 ;
+
+.publication-figure img {
+  transform: scale(1.2);
+}
