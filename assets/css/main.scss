@@ -18,11 +18,3 @@ $max-content-width: {{ site.max_width }};
   "font-awesome/solid",
   "font-awesome/regular"
 ;
-
-// Ensure figures in publications scale properly
-.publication-figure img {
-  max-width: 100%; /* Ensures the image scales within its container */
-  height: auto;    /* Maintains aspect ratio */
-  display: block;  /* Removes inline spacing issues */
-  margin: 0 auto;  /* Centers the image */
-}
