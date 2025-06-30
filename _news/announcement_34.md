@@ -7,4 +7,4 @@ related_posts: false
 
 
 I gave a keynote at the 
-[CSIRO Cutting Edge Symposium on Real Time Control Decisions using Machine Learning](https://wp.csiro.au/rtcml25/) held in Melbnourne, Australia.
+[CSIRO Cutting Edge Symposium on Real Time Control Decisions using Machine Learning](https://wp.csiro.au/rtcml25/) held in Melbourne, Australia.
