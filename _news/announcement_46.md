@@ -9,4 +9,4 @@ related_posts: false
 
 
 
-I gave an online invited talk at the MIT JTL Seminar organized by the [Urban Mobility Lab (JTL)](https://dusp.mit.edu/labs/urban-mobility-lab-jtl).
+I gave an [online invited talk](https://sites.mit.edu/jtl-seminar/) at the MIT JTL Seminar organized by the [Urban Mobility Lab (JTL)](https://dusp.mit.edu/labs/urban-mobility-lab-jtl).
