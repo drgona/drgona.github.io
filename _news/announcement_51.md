@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 
-Our paper [$\partial$Differentiable Causal Block Diagrams](https://arxiv.org/abs/2602.07581) was accepted to the 17th ACM/IEEE International Conference on Cyber-Physical Systems, 2026.
+Our paper [Differentiable Causal Block Diagrams](https://arxiv.org/abs/2602.07581) was accepted to the 17th ACM/IEEE International Conference on Cyber-Physical Systems, 2026.
